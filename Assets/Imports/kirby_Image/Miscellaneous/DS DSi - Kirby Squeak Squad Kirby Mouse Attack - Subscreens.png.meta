@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: 3b047e870f4fb28469782a3bb86ecc1c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8387194d38cccf64eae32238e976b1c4
+      internalID: -1045409565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da70dff6f33bcc4dbb4a5dbc7201058
+      internalID: -1656344106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b360bf081783780458454104611f4492
+      internalID: -1287107583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2061d4e39d22a5141bdf6ec7b4494440
+      internalID: -931674219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c0f42cdda2db846a7801d0f668a118
+      internalID: -657907394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b8b27321cef114295c2f4ad389df51
+      internalID: 1100559482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 578
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b39783fa7986945ab4204fffadd39e
+      internalID: 200185513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70301a46baac2134fba6b16b16d6dc50
+      internalID: -246478814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79baa35ec11bfaa459a33047e452c9ce
+      internalID: 1277408776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d510b9e69c0636f4d84e08f928411563
+      internalID: 974204571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_10
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636030312351a5b4f8fcc98c2dd24f28
+      internalID: -1860485083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_11
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2cb8a01cae7ab44962944dc56c77f3
+      internalID: 1750611914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_12
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613778a357b4164398b394644d5aa40
+      internalID: 1225760138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_13
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 385
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68417d7ba4ed32c499d9fa3ac7b8af64
+      internalID: 1670710965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed638012d18d1949a63bb453101b4fc
+      internalID: 1849139009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca3775bdcb6d2438e9b0cf33406775
+      internalID: -1052718365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_16
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f4ca676b63e8d43864e353d26d0205
+      internalID: -238572179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_17
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cdb15fbd76afd459e86604a62a331e
+      internalID: 1327115491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361732700fef3454cb955c33f46df829
+      internalID: -142586876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_19
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1797b51e371f7ad41a9a17e772455583
+      internalID: 307815116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_20
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 192
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda736ca7787d08468fd32620c3e4fed
+      internalID: -1534368897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_21
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 582
+        width: 254
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7359075b4fb892c45b983ecc970ec16e
+      internalID: -715896905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_22
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 384
+        width: 256
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd537cba6b9030c42a2bfd162901bac0
+      internalID: -1487544449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 194
+        width: 255
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195e410da2bd888409277a703a72ce62
+      internalID: -779562756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028bb7b534877642b9bdf0ec6505c5c
+      internalID: 2095045262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdcf0ab44f8f9e4abf79e479800c1ed
+      internalID: -418621553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454519252caa20d47a6a9bc222d1bd92
+      internalID: 976434935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_27
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d5ee68c011e1543841279675a5456e
+      internalID: -1857812826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_28
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f4b729bdafc264a8108ca52219eb4e
+      internalID: 2097720547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_29
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a1a67caa08d740a0767909328eaf0
+      internalID: 529908508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_30
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 257
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b869460adb5e844ad9b7be6bf3b10f
+      internalID: 588585471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_31
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 49
+        width: 255
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b675678a42de5640a0756b7d382bce9
+      internalID: -71269815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_32
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 0
+        width: 254
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83122343c9028b74d8a7f084eedd83a2
+      internalID: -490104373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_0: -1045409565
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_1: -1656344106
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_10: -1860485083
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_11: 1750611914
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_12: 1225760138
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_13: 1670710965
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_14: 1849139009
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_15: -1052718365
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_16: -238572179
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_17: 1327115491
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_18: -142586876
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_19: 307815116
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_2: -1287107583
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_20: -1534368897
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_21: -715896905
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_22: -1487544449
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_23: -779562756
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_24: 2095045262
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_25: -418621553
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_26: 976434935
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_27: -1857812826
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_28: 2097720547
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_29: 529908508
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_3: -931674219
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_30: 588585471
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_31: -71269815
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_32: -490104373
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_4: -657907394
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_5: 1100559482
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_6: 200185513
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_7: -246478814
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_8: 1277408776
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Subscreens_9: 974204571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

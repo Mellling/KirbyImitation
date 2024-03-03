@@ -1,0 +1,3255 @@
+fileFormatVersion: 2
+guid: 0dd41321f616444428b7283f7fdcb075
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 882
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32d1966f8ad78d40a399736c193e426
+      internalID: -229580627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 882
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a614698ff6ab88244b4e4255be12cfc1
+      internalID: -848760942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 849
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297e43ae70af37438ce62e3600a4e26
+      internalID: 637970938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 849
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da16b8870b01d174483af23d68e4f107
+      internalID: 134746923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 849
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3834eb0bb29d6014faf00a6b7e5fb6e3
+      internalID: -125308688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 849
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a093b676c0ae48bd122da63341c0c
+      internalID: 75413663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 821
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f36a10df30f444b36f7ab4c1d0c0c
+      internalID: 449073947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 821
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684117b1d0f2ae84a9b48233fa5aa020
+      internalID: -1063804682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 821
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ada9b6010555e43916e9d64bdf865f
+      internalID: 363471072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 821
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84d3736e381581459f76d2c305649e2
+      internalID: 681329503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 795
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2151788c8eca0dd4abdeb4420e022fa0
+      internalID: -1686884672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 795
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b3807dc839447419435c99240dc81f
+      internalID: -1804572304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 795
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b6a02ff92f2974bae7a6eca0b20125
+      internalID: -1752646126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 795
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28760e8bf4343e146bd1f5f3331b522c
+      internalID: 1714245384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 756
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1aa9be202565f43972e8ad29815d53
+      internalID: 1516426305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 756
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688782d3c5fd6c94bb4e1b822fca2974
+      internalID: 1763157743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 728
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5571c028afba658439fc64fe70e86c7d
+      internalID: 2086582027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 728
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e267bd37b4a464e86b9d142387f15a
+      internalID: 343671779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 728
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f48df4ff5a6614ba50940e392b6775
+      internalID: -1771203476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 728
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286387fd58fa7f84c81097d95da25069
+      internalID: -873959098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 702
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bfb9eae2c836345ba03e7c131a6684
+      internalID: 1397305038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 702
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4332fff81a113149a295c585cfd06ce
+      internalID: 1799966017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 702
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766a85e935ae5444a8169f97d1969fe0
+      internalID: -1093884857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 671
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b77d4ec3ec0ab34cb6524f3be470eb8
+      internalID: -2124950486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 671
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00bc5f05e2f4db419dc7fe15ebac666
+      internalID: -950294073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 671
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecbaf1f2330e22469a3eeaa19753418
+      internalID: 647468888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 671
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3e105923254564bbc40940ee647aa2
+      internalID: -1080021249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 671
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646af0b20a59ad4782ba4e308782e21
+      internalID: 630734696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_28
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 671
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7aedc83cd576946a70b46abeb703fe
+      internalID: -861219148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_29
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 671
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5705e724b618c438f9153207d67510
+      internalID: 1281060690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_30
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 671
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3c66d0000d2b42838ddd08fb394bc
+      internalID: -1940388079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_31
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 671
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed26145da75e5a42a5bb2312c7832d6
+      internalID: -564811517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 636
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7a1db2332ce1e49ad715af425212cb
+      internalID: -2064904191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 636
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafaff4088b708b43b8119e67ee9aa42
+      internalID: -1122397290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 636
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de45878ec845ee4b8ae2aded6e12012
+      internalID: 1351807385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a50ceaf1eb43064d8cdd3fd59d1adf7
+      internalID: -1070749569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37c8d80f9c83bf47a42a10e3609bb7e
+      internalID: 503758646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811d9ed148622fa4ea7767579f3ef276
+      internalID: 429102915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bab3ed797dde354e8f10221df014f68
+      internalID: 609221174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b669ae82d81f42939a996440456de
+      internalID: 1738708585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e46ea69d5c694d4eb7adb2b0033f8fc
+      internalID: 333644559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcf28756eba3b0438033b7780635f46
+      internalID: 359297843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_44
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 647
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa250f72741aacd43bca6f89f58fab21
+      internalID: 1584234212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 593
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0ae93bf1ea7a14f94dd366df2e3f4c
+      internalID: 879674663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_48
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 593
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9313b115cd03d44b138865d25c1eb7
+      internalID: 859052094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 562
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220e081984a27d1478461d406ddeb0b5
+      internalID: -901378241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 536
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fc52ed2a5199c4381ee6af8301216a
+      internalID: -1798329046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 536
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f17a1864000f43468c8365fe1146075
+      internalID: 1009138862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 536
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef8000c2da9a2b47a44bd4274c2c1d6
+      internalID: 2001244922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 536
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3798bc757dbf704dbd52d975695ee7c
+      internalID: -1181090979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_54
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 536
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8aa1b718c0df8419344d63aaaaf1f5
+      internalID: -1133776225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 536
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da93f5c67052b5a418e43b77b2a32d6b
+      internalID: -632538976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_56
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 536
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba324223ecae3489ccb1c69c06f51e
+      internalID: 681293586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 536
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998278bbf20fd3a4c9a1df4d1a862b84
+      internalID: 1723929671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_58
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 536
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a9d29c8c9b9047b5457583acea2e2
+      internalID: -479782655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 510
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca0da60ea229d47868cb3d5c6ee40f
+      internalID: -1606682184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 510
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee0a5a03421d504487e0821e7de69f4
+      internalID: 2089904471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_61
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 510
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f97514b08778b849828396762ed1ff4
+      internalID: 2110952558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 510
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07094a0fc987bd44a90fa30fbe8489bf
+      internalID: -34981243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_63
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 510
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66574e46f5d62ab4fb36707ac92848fb
+      internalID: -1317959418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_64
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 510
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3975c917bde74443ba7021483b3ca8b
+      internalID: 1986021991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 510
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d59124ae736e74494f943d71536ad0
+      internalID: 686208208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 510
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e789112aa331a6347ac457081a2ae87b
+      internalID: 266944942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_67
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 485
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106c997e3c69f64d9da9b6e64062cbe
+      internalID: -36279346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 485
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310ff780856b6b4db7e95c0f3d81c65
+      internalID: -118844778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 464
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2d8b13ed226e04db75cc973ef59914
+      internalID: -561659447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 464
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0212e88d3af7438e3b1e5a017a9d7
+      internalID: -645955088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_71
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 464
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856a4dbd36acd534abb040918c00da80
+      internalID: 1007731305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_72
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 464
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013e93719c3374249af871a70a2e7a8b
+      internalID: -1165831460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_73
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 464
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aeda2fb63ac0246a0d1d0f8b204562
+      internalID: 1172855667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_74
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 464
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56996918157484489b95feb757699e9
+      internalID: 1101245158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 464
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ac77d683879b24889614e0649da29f
+      internalID: -515053546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_76
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 464
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972fa63fe25aa864a98dd5009a2acec9
+      internalID: 1006018872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_77
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 445
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d1289a6a307641891475bed476f25
+      internalID: -66662176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_78
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 445
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9250e7cdba9307a4997622f83f4bd972
+      internalID: 542496448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_79
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 445
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce84c2c162727542a0f126fc4ca1bb8
+      internalID: 667382960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 423
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f8bb88abb1378448bdae7f08ef08dc
+      internalID: 155282184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_81
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 423
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697af6578d3d794fbe4391ff1399664
+      internalID: -1000608212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_82
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 390
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ea8337bd18629418159c46db39cd74
+      internalID: -1727077163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_83
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 390
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4586b2197aa3b42ad0ab8f07542078
+      internalID: 551520994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 390
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956fb9daffe8d84086afd1c3c49cb49
+      internalID: -1246512443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_85
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 390
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59274d1092c8fa8448d729400c141a0a
+      internalID: -1409435284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_86
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 390
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c50608dc68fd42be193866a96d9f3
+      internalID: -679508726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 353
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827578561f161124980fee8016c40e75
+      internalID: -1205776163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_88
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 353
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c497b55adbeba4582400c3e5fa8148
+      internalID: 1927266051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_89
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 331
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980fac8ed9b59845a79f92ffa1c6057
+      internalID: 1348991820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_90
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 331
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b24a7d5f5e04c4e94334af4d3226f7
+      internalID: 998886738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_91
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 331
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add606d68d1c7840bc9698db0cde1a2
+      internalID: 443409886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_92
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 331
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487ba957f3120f4f84f471068aaefa7
+      internalID: 1836177877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_93
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 306
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320ee0f221d53ca469d8acb48bd1dbbf
+      internalID: -662676317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_94
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 306
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a8c7ffdf67b2a4b97e71d1495ffe03
+      internalID: 2032652536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_95
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56a55f8c55813b488bda92e1eedde72
+      internalID: 575293191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_96
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 287
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5c3c66a591764418dc9ca477c85113
+      internalID: 1708523089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_97
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580e6850bd8d4040915f60d5dd0d7ea
+      internalID: 807649819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_98
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 287
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be8b3f27c7c4ce4b9c9d34f38b444b0
+      internalID: -1476850344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_99
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881c6c52652fc634b814cc3fc01db2ea
+      internalID: -2120185147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_100
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 287
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d29cb6449c872e4fa42208c6321bec3
+      internalID: 1405663514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 263
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853a2caad5504e64fa088a0e2af33e9f
+      internalID: -32521772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_102
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 263
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ba9f8c9d175945ad5b87018ab5be9
+      internalID: 49111381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_103
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 263
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef4bf8b9b268014c84fb78f4db5857f
+      internalID: -2120284014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_104
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 263
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87aa42c70d6374c8893f5039e93c74
+      internalID: -1606233220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_105
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 263
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd5af3c98ac1f4893620e12ccd8dbd
+      internalID: 1857501180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_106
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 241
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc3aafd7e52f1049a6e1100354b981d
+      internalID: 273110474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_107
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 241
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bc24eef7a5e474c8086b4a95ddccf9
+      internalID: 1647416389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 219
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012eec59946907a48850b483e6ee44d6
+      internalID: 1464729479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_109
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 219
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d76b3bb2058eae4caf2efa0ce62dbc7
+      internalID: -363680875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_110
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 219
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6676ca8c385ce6d49b2944131ddb39fe
+      internalID: 2012113889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_111
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 219
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a4d3a6f33e01e43a38ccbf9a22293d
+      internalID: 244731086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_112
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 219
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c0e637f0afb62488ecf9527d69014e
+      internalID: -1752722808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_113
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64846d0afad18df4a9947dc218a9abf7
+      internalID: 434901578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_114
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 195
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a9a84ad38292d48a7ce37601b305a1
+      internalID: -1922237852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 195
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c85befc497d24c4fa453fde09d572ce
+      internalID: 1955364823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_116
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 169
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8233f32850bd22549ba96cf43c4b7ddd
+      internalID: 1147329427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_117
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 169
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a63886254224940a9166f1e9ed4325
+      internalID: 685843902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_118
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 146
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c754b0aa831afb94db482a4c9b80f787
+      internalID: -818463300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_119
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 146
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08ff785fc6947947910cec9cf709e9c
+      internalID: 245184535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_120
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 146
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3b598d5d271f4e905ace82e5689ca
+      internalID: -1330093937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_121
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 146
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2e6f171c805b4cae4697982f81ca5
+      internalID: -1452610567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_122
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 146
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eee0ecb93e37394281a8b82ec26f1ea
+      internalID: -1536045248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_123
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 124
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c575dce68dc146ae26e83a1714014
+      internalID: 150081294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_124
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 124
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e6f40af99db5843bf832280f5ff54d
+      internalID: -1543327769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_125
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a810578bd8dcb094cbae61c534723692
+      internalID: -2003177808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_126
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 99
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211e2a61f63bdf4095fe40cd90e10c8
+      internalID: 980235194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7689ee47747845943b6c1aea61354004
+      internalID: 284035045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_128
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 99
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06b82654d55b74f91c0d23ffe72478
+      internalID: -106384679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_129
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 99
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8676a4aa647a4374381b1968ca7f999e
+      internalID: -1716222819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_130
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 75
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da19593e6eb7d1840b855f0110deb8c7
+      internalID: 318806326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_131
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 75
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca68f6ec0cace74fb3df5b0f0aad264
+      internalID: 628153864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_132
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667873e6961b25d4cac956cc04b3ec5f
+      internalID: 313534091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_133
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361c5cff21024d408734bb7cb3d72d6
+      internalID: 2135204147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_134
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 75
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52791ce774a04564fb2f11fb9d7f6e2d
+      internalID: -869023676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_135
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7bb0d60535b4c4c94df20a31b47917
+      internalID: 888100540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_136
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ab435aa2961848b9447ab2b05528f
+      internalID: -1698854292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_137
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 51
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ff123c0a2bad40a240b47d1f6455f
+      internalID: -1384151633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_138
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 51
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96507dce9f5388478fa8cfa80023c33
+      internalID: 1188403844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_139
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 27
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839abde18dc4147438910b0d94e93c65
+      internalID: 1102797678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_140
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37481911c0effea46b5167ef2a66801d
+      internalID: -1126928201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_141
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dae892f0ba3af498d0911e379b6386
+      internalID: 41255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_142
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a4b47770f06c41862b7d1cae25041
+      internalID: -866887911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_143
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f8064dec4c0de48a13a1a4181df3af
+      internalID: 1704166073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4cbfd4655a00b488c0aba251489a36
+      internalID: 138943734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_145
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ded3f091db256d47955c1f7cdcac858
+      internalID: -463986759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_0: -229580627
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_1: -848760942
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_10: -1686884672
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_100: 1405663514
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_101: -32521772
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_102: 49111381
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_103: -2120284014
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_104: -1606233220
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_105: 1857501180
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_106: 273110474
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_107: 1647416389
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_108: 1464729479
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_109: -363680875
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_11: -1804572304
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_110: 2012113889
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_111: 244731086
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_112: -1752722808
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_113: 434901578
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_114: -1922237852
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_115: 1955364823
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_116: 1147329427
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_117: 685843902
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_118: -818463300
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_119: 245184535
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_12: -1752646126
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_120: -1330093937
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_121: -1452610567
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_122: -1536045248
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_123: 150081294
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_124: -1543327769
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_125: -2003177808
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_126: 980235194
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_127: 284035045
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_128: -106384679
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_129: -1716222819
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_13: 1714245384
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_130: 318806326
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_131: 628153864
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_132: 313534091
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_133: 2135204147
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_134: -869023676
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_135: 888100540
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_136: -1698854292
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_137: -1384151633
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_138: 1188403844
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_139: 1102797678
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_14: 1516426305
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_140: -1126928201
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_141: 41255
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_142: -866887911
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_143: 1704166073
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_144: 138943734
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_145: -463986759
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_15: 1763157743
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_16: 2086582027
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_17: 343671779
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_18: -1771203476
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_19: -873959098
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_2: 637970938
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_20: 1397305038
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_21: 1799966017
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_22: -1093884857
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_23: -2124950486
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_24: -950294073
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_25: 647468888
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_26: -1080021249
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_27: 630734696
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_28: -861219148
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_29: 1281060690
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_3: 134746923
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_30: -1940388079
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_31: -564811517
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_32: -2064904191
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_33: -1122397290
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_34: 1351807385
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_35: -1070749569
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_36: 79065238
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_37: 503758646
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_38: 429102915
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_39: 609221174
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_4: -125308688
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_40: 1738708585
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_41: 333644559
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_42: -1355361419
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_43: 359297843
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_44: 1584234212
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_45: 1422760257
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_46: 759962131
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_47: 879674663
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_48: 859052094
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_49: -901378241
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_5: 75413663
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_50: -1798329046
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_51: 1009138862
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_52: 2001244922
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_53: -1181090979
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_54: -1133776225
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_55: -632538976
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_56: 681293586
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_57: 1723929671
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_58: -479782655
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_59: -1606682184
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_6: 449073947
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_60: 2089904471
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_61: 2110952558
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_62: -34981243
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_63: -1317959418
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_64: 1986021991
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_65: 686208208
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_66: 266944942
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_67: -36279346
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_68: -118844778
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_69: -561659447
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_7: -1063804682
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_70: -645955088
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_71: 1007731305
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_72: -1165831460
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_73: 1172855667
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_74: 1101245158
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_75: -515053546
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_76: 1006018872
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_77: -66662176
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_78: 542496448
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_79: 667382960
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_8: 363471072
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_80: 155282184
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_81: -1000608212
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_82: -1727077163
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_83: 551520994
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_84: -1246512443
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_85: -1409435284
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_86: -679508726
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_87: -1205776163
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_88: 1927266051
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_89: 1348991820
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_9: 681329503
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_90: 998886738
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_91: 443409886
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_92: 1836177877
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_93: -662676317
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_94: 2032652536
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_95: 575293191
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_96: 1708523089
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_97: 807649819
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_98: -1476850344
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Enemies1_99: -2120185147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

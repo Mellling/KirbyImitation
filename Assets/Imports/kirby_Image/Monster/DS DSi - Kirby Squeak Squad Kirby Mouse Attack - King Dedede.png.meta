@@ -1,0 +1,1275 @@
+fileFormatVersion: 2
+guid: f77387e69541d544a872b520b102b99b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 200
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e35c49b55ba6d4e8fd01e2fb42e67c
+      internalID: -1341907381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 200
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7038b0b98c4f9e24186b8340d8b7130e
+      internalID: 333381363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 200
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ba69bbfbcc68f47b1ab06db8c5f80e
+      internalID: -1029058704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 200
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9364770f45067b4d88853ad48d66d45
+      internalID: -293253412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 200
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9cb1f7be7aec6438401318baf9fac6
+      internalID: 405820428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 200
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb70a411ff45089429647c011b9806df
+      internalID: -149150265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd24683d05a9c4c47aef2a3d9ac597fd
+      internalID: 802075875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 200
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbbaff9b9df8a143b9f34958687b9a7
+      internalID: -2039516794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 200
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24996108d4406c441adb6294c364be85
+      internalID: -1874147138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 200
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7674d7cbd7345d4baa5a2b4dea984ab
+      internalID: -926727458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_10
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 200
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca46ddbe44d5794eb55164cf5070ca6
+      internalID: -170259898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 200
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7990d0ba0a59cf458f7d812c2ec3080
+      internalID: 1969430307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c91ebd73e1c07148ad51a1d9f0b9fae
+      internalID: 2108072713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 200
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798927b2f873f914ebc10f769dfeddf9
+      internalID: -1021702597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_14
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 200
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8af396565549b4480ae7508a151e3b
+      internalID: 437051359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 200
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc4944d64068943aa01f79e626e47c
+      internalID: -313728276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_16
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 200
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6be28aad1315243a3fe432607d9e5f
+      internalID: 1135951080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 116
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da48619c4bebe84e9bc56fe3e544c03
+      internalID: 1449860696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 116
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e211a269d9ddab443ab2bec7e15405aa
+      internalID: -457683358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 116
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fff5e14a3a144abaa1689042f44ec
+      internalID: 1656117878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 116
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f5d47e9aabb44fa4542e687d1acad
+      internalID: -1076633171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 116
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081c26ecec8229441a5dcd63b5eebd4a
+      internalID: -1473794384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a041e17c017992e43a3fcf47b2d61e13
+      internalID: 1355789726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 116
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d708ca5b2a0884baa64dcf395e5a85
+      internalID: -1330350587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_24
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 116
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5435adccc07de44795af66e812afc6d
+      internalID: 1371461432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 116
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570de722814221c4aa965a1246bca550
+      internalID: -34653801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_26
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 116
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eb7df2ae00f4d4084eb7abf6e72cfd
+      internalID: -1658076470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_27
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 116
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0c33f10e1d877449a47024f3157a56
+      internalID: -1347714092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_28
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 116
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e60d258f5e0c8438483b19572e1ce2
+      internalID: 1958613155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_29
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 116
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e0c1a61ca76e04d9600c86f8501394
+      internalID: -447450445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_30
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 116
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e9ed43f7ae0e14facb3c65166f76c6
+      internalID: -1717226981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 15
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbc549c76febd54481a67c09ffce322
+      internalID: -1966143057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 75
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741a0faa718447744b787d74438c2881
+      internalID: 450165820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 91
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea3ba058c34b564487c9774ee003eb7
+      internalID: -1614553292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 91
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccefd90f3bf09d04494ed1b4a43968ac
+      internalID: 265665281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 91
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629d456b4b5d9484fa7f9429b258d0da
+      internalID: 1210135986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_36
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 91
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c7cdf3c1b6a6441b9dd6831791c85e
+      internalID: -369837467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 50
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3344f70e0ab254f83873949329b5fc
+      internalID: -2037403551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4eb1e2c987f414aaa006e148920a25
+      internalID: 850799327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_40
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 47
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f5e22824a4daf42bcd5d54d3d9790f
+      internalID: -1190661826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 47
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30da0614b16d0c344a9c043951a7dfb7
+      internalID: -310315235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d7f1fce1e5f14d8d1a74ed3a10271
+      internalID: -51069664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 55
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4490be61a4aa2664fb966493dbb2d752
+      internalID: 2057379320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_45
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b32eaf3e3667c4bbdecb9e5794215c
+      internalID: 6193627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_46
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a9d149b2653643bae765a0248d80c
+      internalID: 1435324732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_47
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a01cfb777fef4fb051e0f22fd7740
+      internalID: 1192902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_50
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a425768a40eec47923a8c86fa20a83
+      internalID: -540107959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff036b0a919b104abadd48afbbe9881
+      internalID: 1358116651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_54
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 6
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7fb73eb7c9fc34ba732f61b40e7e0b
+      internalID: -1559550236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_44
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 70
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695cb4b09523fd540b10bc01c3f86e06
+      internalID: -1695226989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 47
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a0cf7b6b4e1e49b017e8862ebad1f
+      internalID: -819504404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_48
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4427b43e6c7f9ac48b1a63c42467cd34
+      internalID: 1852530504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_0: -1341907381
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_1: 333381363
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_10: -170259898
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_11: 1969430307
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_12: 2108072713
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_13: -1021702597
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_14: 437051359
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_15: -313728276
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_16: 1135951080
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_17: 1449860696
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_18: -457683358
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_19: 1656117878
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_2: -1029058704
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_20: -1076633171
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_21: -1473794384
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_22: 1355789726
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_23: -1330350587
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_24: 1371461432
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_25: -34653801
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_26: -1658076470
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_27: -1347714092
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_28: 1958613155
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_29: -447450445
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_3: -293253412
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_30: -1717226981
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_31: -1966143057
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_32: 450165820
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_33: -1614553292
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_34: 265665281
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_35: 1210135986
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_36: -369837467
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_37: 46834032
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_38: -2037403551
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_39: 850799327
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_4: 405820428
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_40: -1190661826
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_41: -310315235
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_42: -51069664
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_43: 2057379320
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_44: -1695226989
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_45: 6193627
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_46: 1435324732
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_47: 1192902
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_48: 1852530504
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_49: -479603730
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_5: -149150265
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_50: -540107959
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_51: 1358116651
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_52: -1439344511
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_53: 1952917693
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_54: -1559550236
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_55: -819504404
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_6: 802075875
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_7: -2039516794
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_8: -1874147138
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - King Dedede_9: -926727458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
