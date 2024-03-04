@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 840526630}
   - component: {fileID: 840526629}
   - component: {fileID: 840526628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,8 +704,8 @@ Transform:
   m_GameObject: {fileID: 840526627}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.032, y: -2.5842, z: 0}
-  m_LocalScale: {x: 12.897296, y: 1.8963825, z: 1}
+  m_LocalPosition: {x: 2.9547, y: -2.3558, z: 0}
+  m_LocalScale: {x: 23.54547, y: 1.4396833, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 1139340806}
   - component: {fileID: 1139340805}
   - component: {fileID: 1139340809}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigid: {fileID: 1139340805}
   render: {fileID: 1816660481}
+  animator: {fileID: 1139340808}
   movePower: 5
+  brakePower: 4
+  maxXSpeed: 3.5
+  jumpSpeed: 7.6
+  groundCheakLayer:
+    serializedVersion: 2
+    m_Bits: 65
 --- !u!114 &1139340807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,7 +937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1816660480}
   - component: {fileID: 1816660481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
