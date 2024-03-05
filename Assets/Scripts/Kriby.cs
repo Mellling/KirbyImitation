@@ -15,35 +15,65 @@ public class Kriby : MonoBehaviour
     [SerializeField] float brakePower;
     [SerializeField] float maxXSpeed;
     [SerializeField] float jumpSpeed;
+    [SerializeField] float runPower;
+    [SerializeField] float runmaxSpeed;
 
     [SerializeField] LayerMask groundCheakLayer;
 
     private Vector2 moveDir;
     private bool isGround;
+    private bool isJumping;
+    private bool isRunning;
 
-    private void Update()
+    private void FixedUpdate()
     {
         Move();
-        CheakJumpSituation();
+        if (isJumping)
+        {
+            CheakJumpSituation();
+        }
 
         animator.SetBool("IsGround", isGround);
+        animator.SetBool("Running", isRunning);
     }
+
+    // 기본 움직임
     public void Move()
     {
-        if (moveDir.x < 0 && rigid.velocity.x > -maxXSpeed)
+        if (isRunning)
         {
-            rigid.AddForce(Vector2.right * moveDir * movePower);
+            Moving(runmaxSpeed, runPower);
         }
-        else if (moveDir.x > 0 && rigid.velocity.x < maxXSpeed)
+        else
         {
-            rigid.AddForce(Vector2.right * moveDir * movePower);
+            Moving(maxXSpeed, movePower);
+        }
+    }
+
+    private void Moving(float max, float power)
+    {
+        if (moveDir.x < 0 && rigid.velocity.x > -max)
+        {
+            rigid.AddForce(Vector2.right * moveDir * power);
+        }
+        else if (moveDir.x > 0 && rigid.velocity.x < max)
+        {
+            rigid.AddForce(Vector2.right * moveDir * power);
         }
         else if (moveDir.x == 0 && rigid.velocity.x < 0)
         {
+            if (isRunning)
+            {
+                isRunning = false;
+            }
             rigid.AddForce(Vector2.right * brakePower);
         }
         else if (moveDir.x == 0 && rigid.velocity.x > 0)
         {
+            if (isRunning)
+            {
+                isRunning = false;
+            }
             rigid.AddForce(Vector2.left * brakePower);
         }
     }
@@ -67,6 +97,7 @@ public class Kriby : MonoBehaviour
         }
     }
 
+    // 점프
     public void Jump()
     {
         Vector2 velocity = rigid.velocity;
@@ -79,7 +110,8 @@ public class Kriby : MonoBehaviour
         if (value.isPressed && isGround)
         {
             Jump();
-            animator.SetBool("Jumping", true);
+            isJumping = true;
+            animator.SetBool("JumpUp", true);
         }
     }
 
@@ -87,30 +119,49 @@ public class Kriby : MonoBehaviour
     {
         if (rigid.velocity.y > 0)
         {
-            animator.SetBool("Jumping", true);
+            animator.SetBool("JumpUp", true);
 
         }
         else if (rigid.velocity.y <= 0)
         {
-            animator.SetBool("Jumping", false);
+            animator.SetBool("JumpUp", false);
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("In");
         if (groundCheakLayer.Contain(collision.gameObject.layer))
         {
             isGround = true;
+
+            if (isJumping)
+            {
+                isJumping = false;
+            }
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        Debug.Log("Out");
         if (groundCheakLayer.Contain(collision.gameObject.layer))
         {
             isGround = false;
         }
     }
+
+    // 달리기
+
+    private void OnRun(InputValue value)
+    {
+        if (value.isPressed && isGround)
+        {
+            isRunning = true;
+        }
+    }
+
+    // 풍선
+    /*private void OnBalloon(InputValue value)
+    {
+        if ()
+    }*/
 }
