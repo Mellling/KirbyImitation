@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
+using UnityEngine.InputSystem.XR.Haptics;
 
 public class Kriby : MonoBehaviour
 {
@@ -36,10 +38,25 @@ public class Kriby : MonoBehaviour
     private bool isJumping;
     private bool isRunning;
     private bool isFlying;
-    // private bool canMove = true;
+    private bool isCrouching;
+    private bool isSliding;
+
     private void Awake()
     {
-        inputAction.Disable();
+        /*inputAction.Disable();
+        presseCo = null;
+        InputActionMap playerMap = inputAction.FindActionMap("Player");
+        InputAction playerAction = playerMap.FindAction("Crouch");
+
+        if (playerAction != null)
+        {
+            playerAction.started += OnEnter;
+            playerAction.canceled += OnExit;
+        }
+
+        inputAction.Enable();*/
+
+        /*inputAction.Disable();
         presseCo = null;
         InputActionMap playerMap = inputAction.FindActionMap("Player");
         InputAction playerAction = playerMap.FindAction("Balloon");
@@ -50,7 +67,7 @@ public class Kriby : MonoBehaviour
             playerAction.canceled += OnExit;
         }
 
-        inputAction.Enable();
+        inputAction.Enable();*/
     }
     private void FixedUpdate()
     {
@@ -84,6 +101,11 @@ public class Kriby : MonoBehaviour
 
     private void Moving(float max, float power)
     {
+        if (isCrouching)
+        {
+            power = 0;
+        }
+
         if (moveDir.x < 0 && rigid.velocity.x > -max)
         {
             rigid.AddForce(Vector2.right * moveDir * power);
@@ -147,24 +169,22 @@ public class Kriby : MonoBehaviour
 
     private void OnJump(InputValue value)
     {
-        if (value.isPressed && isGround)
+        if (value.isPressed && isGround && !isFlying && !isCrouching)
         {
+            Debug.Log("OnJump");
             Jump();
             isJumping = true;
-            if(animator.GetBool("JumpUp") == false)
+            if (animator.GetBool("JumpUp") == false)
+            {
                 animator.SetBool("JumpUp", true);
+            }
         }
 
     }
 
     private void CheakJumpSituation()
     {
-        if (rigid.velocity.y > 0)
-        {
-            //animator.SetBool("JumpUp", true);
-
-        }
-        else if (rigid.velocity.y <= 0)
+        if (rigid.velocity.y < 0)
         {
             animator.SetBool("JumpUp", false);
         }
@@ -202,13 +222,118 @@ public class Kriby : MonoBehaviour
     }
 
     // ¿õÅ©¸®±â
+
     private void OnCrouch(InputValue value)
     {
+        if (value.isPressed)
+        {
 
+            if (isSliding)
+            {
+                Debug.Log("In");
+                isSliding = false;
+                animator.SetBool("isSlide", false);
+
+                isCrouching = true;
+                animator.SetBool("Crouching", isCrouching);
+            }
+            else
+            {
+                isCrouching = true;
+                animator.SetBool("Crouching", isCrouching);
+            }
+
+            
+        }
+        else if (!value.isPressed)
+        {
+            isCrouching = false;
+            animator.SetBool("Crouching", isCrouching);
+        }
     }
 
-    Coroutine presseCo = null;
+    /*Coroutine presseCo = null;
+
+    void OnEnter(InputAction.CallbackContext context)
+    {
+        if (presseCo != null)
+        {
+            StopCoroutine(presseCo);
+        }
+        presseCo = StartCoroutine(OnPressed());
+
+        Debug.Log("ÁøÀÔ");
+    }
+    IEnumerator OnPressed()
+    {
+        yield return new WaitForSeconds(0.1f);
+        while (true)
+        {
+            if (isGround && !isFlying && !isSliding)
+            {
+                Debug.Log("OnCrouch Áß");
+                isCrouching = true;
+                animator.SetBool("Crouching", isCrouching);
+            }
+
+            if (isSliding)
+            {
+                // isSliding = false;
+                // animator.SetBool("isSlide", isSliding);
+                animator.Play("Sliding");
+            }
+
+            Debug.Log("ÁøÀÔ Áß");
+            yield return new WaitForFixedUpdate();
+        }
+    }
+    void OnExit(InputAction.CallbackContext context)
+    {
+        if (presseCo != null)
+        {
+            StopCoroutine(presseCo);
+        }
+        isCrouching = false;
+        animator.SetBool("Crouching", isCrouching);
+        Debug.Log("Å»Ãâ");
+    }*/
+
+    private void OnSlide(InputValue value)
+    {
+        if (value.isPressed && isCrouching)
+        {
+            isCrouching = false;
+            animator.SetBool("Crouching", isCrouching);
+
+            isSliding = true;
+            animator.SetBool("isSlide", isSliding);
+        }
+    }
+
     // Ç³¼±
+
+        private void OnBalloon(InputValue value)
+    {
+        if (!isGround)
+        {
+            isFlying = true;
+            rigid.gravityScale = flyGravity;
+            animator.SetBool("Fly", isFlying);
+        }
+    }
+
+    private void OnBalloonClear(InputValue value)
+    {
+        if (isFlying)
+        {
+            isFlying = false;
+            rigid.gravityScale = 1.0f;
+            animator.SetBool("Fly", isFlying);
+        }
+    }
+
+    /*Coroutine presseCo = null;
+
     void OnEnter(InputAction.CallbackContext context)
     {
         if (presseCo != null)
@@ -248,6 +373,6 @@ public class Kriby : MonoBehaviour
         animator.SetBool("Fly", isFlying);
         rigid.gravityScale = 1.0f;
         Debug.Log("Å»Ãâ");
-    }
+    }*/
 
 }

@@ -34,7 +34,7 @@
                 },
                 {
                     "name": "Crouch",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "a278cac7-4cb0-465e-8b7a-cd1ef701a95a",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -45,6 +45,24 @@
                     "name": "Balloon",
                     "type": "Button",
                     "id": "dd5df252-2560-4625-ac19-dd28840e4357",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BalloonClear",
+                    "type": "Button",
+                    "id": "539ac55e-d10e-4d2b-950e-e2aadaa1ba1a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slide",
+                    "type": "Button",
+                    "id": "237327fb-191d-4a46-8c38-b56130a2d28b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -148,6 +166,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Balloon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d1bfece-83af-4520-92a0-e020e7b1e137",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BalloonClear",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d043962c-a4de-48be-b74e-768f2ec8029d",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
