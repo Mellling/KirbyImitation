@@ -33,9 +33,18 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Crouch",
+                    "type": "Button",
+                    "id": "a278cac7-4cb0-465e-8b7a-cd1ef701a95a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Balloon",
                     "type": "Button",
-                    "id": "4f8a7172-be41-4abe-ad2e-2a897c1a630c",
+                    "id": "dd5df252-2560-4625-ac19-dd28840e4357",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -45,7 +54,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "1a634564-6e2d-4777-8e24-8ac58a235667",
+                    "id": "d64393e5-2406-45a8-9afa-bc40e874fca0",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -55,8 +64,30 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "up",
+                    "id": "8e38bd32-bdf5-4b9a-8fb5-fe6c0012661c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "63c878d7-905f-49da-a384-1a3ccd3e8698",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "left",
-                    "id": "5f9d2462-f821-411e-bf4d-955c14167d76",
+                    "id": "a0a891c2-e3fb-4abc-a9a1-c531850fe0c6",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -67,7 +98,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "4bf8addf-7ef0-4f9a-b18d-11ed684a58d7",
+                    "id": "2d4b91c6-77f2-47f7-9ae9-319a449771f6",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -100,7 +131,18 @@
                 },
                 {
                     "name": "",
-                    "id": "86522b9a-840c-4ccd-95e9-9a3316248ea5",
+                    "id": "44be2f06-4880-4d55-979a-e0068165ac4f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e1147f3-684b-4b88-8197-98ea6b2f9a79",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",

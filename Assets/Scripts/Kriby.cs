@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Interactions;
 
 public class Kriby : MonoBehaviour
 {
@@ -9,14 +11,23 @@ public class Kriby : MonoBehaviour
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] SpriteRenderer render;
     [SerializeField] Animator animator;
+    [SerializeField] InputActionAsset inputAction;
 
     [Header("Property")]
     [SerializeField] float movePower;
     [SerializeField] float brakePower;
     [SerializeField] float maxXSpeed;
+
     [SerializeField] float jumpSpeed;
+
     [SerializeField] float runPower;
     [SerializeField] float runmaxSpeed;
+
+    [SerializeField] float flyGravity;
+    [SerializeField] float flyYPower;
+    [SerializeField] float flyXPower;
+    [SerializeField] float flyXMaxSpeed;
+    [SerializeField] float flyYMaxSpeed;
 
     [SerializeField] LayerMask groundCheakLayer;
 
@@ -24,11 +35,28 @@ public class Kriby : MonoBehaviour
     private bool isGround;
     private bool isJumping;
     private bool isRunning;
+    private bool isFlying;
+    // private bool canMove = true;
+    private void Awake()
+    {
+        inputAction.Disable();
+        presseCo = null;
+        InputActionMap playerMap = inputAction.FindActionMap("Player");
+        InputAction playerAction = playerMap.FindAction("Balloon");
 
+        if (playerAction != null)
+        {
+            playerAction.started += OnEnter;
+            playerAction.canceled += OnExit;
+        }
+
+        inputAction.Enable();
+    }
     private void FixedUpdate()
     {
         Move();
-        if (isJumping)
+
+        if (isJumping && !isFlying)
         {
             CheakJumpSituation();
         }
@@ -43,6 +71,10 @@ public class Kriby : MonoBehaviour
         if (isRunning)
         {
             Moving(runmaxSpeed, runPower);
+        }
+        else if (isFlying)
+        {
+            Moving(flyXMaxSpeed, flyXPower);
         }
         else
         {
@@ -76,11 +108,19 @@ public class Kriby : MonoBehaviour
             }
             rigid.AddForce(Vector2.left * brakePower);
         }
+
+        if (isFlying)
+        {
+            if (moveDir.y > 0 && rigid.velocity.y < flyYMaxSpeed)
+            {
+                rigid.AddForce(Vector2.up * moveDir * flyYPower, ForceMode2D.Impulse);
+            }
+        }
     }
     private void OnMove(InputValue value)
     {
         moveDir = value.Get<Vector2>();
-        
+
         if (moveDir.x < 0)
         {
             render.flipX = true;
@@ -111,15 +151,17 @@ public class Kriby : MonoBehaviour
         {
             Jump();
             isJumping = true;
-            animator.SetBool("JumpUp", true);
+            if(animator.GetBool("JumpUp") == false)
+                animator.SetBool("JumpUp", true);
         }
+
     }
 
     private void CheakJumpSituation()
     {
         if (rigid.velocity.y > 0)
         {
-            animator.SetBool("JumpUp", true);
+            //animator.SetBool("JumpUp", true);
 
         }
         else if (rigid.velocity.y <= 0)
@@ -137,6 +179,7 @@ public class Kriby : MonoBehaviour
             if (isJumping)
             {
                 isJumping = false;
+                animator.SetBool("JumpUp", false);
             }
         }
     }
@@ -150,7 +193,6 @@ public class Kriby : MonoBehaviour
     }
 
     // ´Þ¸®±â
-
     private void OnRun(InputValue value)
     {
         if (value.isPressed && isGround)
@@ -159,9 +201,53 @@ public class Kriby : MonoBehaviour
         }
     }
 
-    // Ç³¼±
-    /*private void OnBalloon(InputValue value)
+    // ¿õÅ©¸®±â
+    private void OnCrouch(InputValue value)
     {
-        if ()
-    }*/
+
+    }
+
+    Coroutine presseCo = null;
+    // Ç³¼±
+    void OnEnter(InputAction.CallbackContext context)
+    {
+        if (presseCo != null)
+        {
+            StopCoroutine(presseCo);
+        }
+        presseCo = StartCoroutine(OnPressed());
+
+        Debug.Log("ÁøÀÔ");
+    }
+    IEnumerator OnPressed()
+    {
+        yield return new WaitForSeconds(0.2f);
+        while(true)
+        {
+            if (!isGround)
+            {
+                Debug.Log("BallonFly Áß");
+                isFlying = true;
+                animator.SetBool("JumpUp", false);
+                animator.SetBool("Fly", isFlying);
+
+                rigid.gravityScale = flyGravity;
+            }
+
+            Debug.Log("ÁøÀÔ Áß");
+            yield return new WaitForFixedUpdate();
+        }
+    }
+    void OnExit(InputAction.CallbackContext context)
+    {
+        if (presseCo != null)
+        {
+            StopCoroutine(presseCo);
+        }
+        isFlying = false;
+        animator.SetBool("Fly", isFlying);
+        rigid.gravityScale = 1.0f;
+        Debug.Log("Å»Ãâ");
+    }
+
 }
