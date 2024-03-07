@@ -25,7 +25,7 @@
                 },
                 {
                     "name": "Run",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "ee5a741b-d83c-47ed-90c0-bf325cf7c8f7",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -66,7 +66,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -182,7 +182,7 @@
                 },
                 {
                     "name": "",
-                    "id": "d043962c-a4de-48be-b74e-768f2ec8029d",
+                    "id": "9cacbedf-be4c-4364-bf04-227d52b79825",
                     "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",

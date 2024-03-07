@@ -101,7 +101,7 @@ public class Kriby : MonoBehaviour
 
     private void Moving(float max, float power)
     {
-        if (isCrouching)
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Crouch"))
         {
             power = 0;
         }
@@ -171,7 +171,6 @@ public class Kriby : MonoBehaviour
     {
         if (value.isPressed && isGround && !isFlying && !isCrouching)
         {
-            Debug.Log("OnJump");
             Jump();
             isJumping = true;
             if (animator.GetBool("JumpUp") == false)
@@ -219,31 +218,26 @@ public class Kriby : MonoBehaviour
         {
             isRunning = true;
         }
+        else if (!value.isPressed)
+        {
+            isRunning = false;
+        }
     }
 
     // øı≈©∏Æ±‚
 
     private void OnCrouch(InputValue value)
     {
+        if (isSliding)
+        {
+            isSliding = false;
+            animator.SetBool("isSlide", isSliding);
+        }
+
         if (value.isPressed)
         {
-
-            if (isSliding)
-            {
-                Debug.Log("In");
-                isSliding = false;
-                animator.SetBool("isSlide", false);
-
-                isCrouching = true;
-                animator.SetBool("Crouching", isCrouching);
-            }
-            else
-            {
-                isCrouching = true;
-                animator.SetBool("Crouching", isCrouching);
-            }
-
-            
+            isCrouching = true;
+            animator.SetBool("Crouching", isCrouching);
         }
         else if (!value.isPressed)
         {
@@ -298,16 +292,33 @@ public class Kriby : MonoBehaviour
         Debug.Log("≈ª√‚");
     }*/
 
+    public void Slide()
+    {
+        Vector2 velocity = rigid.velocity;
+
+        if (render.flipX)
+        {
+            velocity.x = -10;
+        }
+        else if (!render.flipX)
+        {
+            velocity.x = 10;
+        }
+        rigid.velocity = velocity;
+    }
+
     private void OnSlide(InputValue value)
     {
-        if (value.isPressed && isCrouching)
-        {
-            isCrouching = false;
-            animator.SetBool("Crouching", isCrouching);
 
-            isSliding = true;
-            animator.SetBool("isSlide", isSliding);
-        }
+        isCrouching = false;
+        animator.SetBool("Crouching", isCrouching);
+
+        isSliding = true;
+        animator.SetBool("isSlide", isSliding);
+
+        Slide();
+
+        animator.Play("Sliding");
     }
 
     // «≥º±
