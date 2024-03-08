@@ -31,6 +31,8 @@ public class Kriby : MonoBehaviour
     [SerializeField] float flyXMaxSpeed;
     [SerializeField] float flyYMaxSpeed;
 
+    [SerializeField] int Hp;
+
     [SerializeField] LayerMask groundCheakLayer;
 
     private Vector2 moveDir;
@@ -41,39 +43,11 @@ public class Kriby : MonoBehaviour
     private bool isCrouching;
     private bool isSliding;
 
-    private void Awake()
-    {
-        /*inputAction.Disable();
-        presseCo = null;
-        InputActionMap playerMap = inputAction.FindActionMap("Player");
-        InputAction playerAction = playerMap.FindAction("Crouch");
-
-        if (playerAction != null)
-        {
-            playerAction.started += OnEnter;
-            playerAction.canceled += OnExit;
-        }
-
-        inputAction.Enable();*/
-
-        /*inputAction.Disable();
-        presseCo = null;
-        InputActionMap playerMap = inputAction.FindActionMap("Player");
-        InputAction playerAction = playerMap.FindAction("Balloon");
-
-        if (playerAction != null)
-        {
-            playerAction.started += OnEnter;
-            playerAction.canceled += OnExit;
-        }
-
-        inputAction.Enable();*/
-    }
     private void FixedUpdate()
     {
         Move();
 
-        if (isJumping && !isFlying)
+        if (!isFlying)
         {
             CheakJumpSituation();
         }
@@ -246,52 +220,6 @@ public class Kriby : MonoBehaviour
         }
     }
 
-    /*Coroutine presseCo = null;
-
-    void OnEnter(InputAction.CallbackContext context)
-    {
-        if (presseCo != null)
-        {
-            StopCoroutine(presseCo);
-        }
-        presseCo = StartCoroutine(OnPressed());
-
-        Debug.Log("진입");
-    }
-    IEnumerator OnPressed()
-    {
-        yield return new WaitForSeconds(0.1f);
-        while (true)
-        {
-            if (isGround && !isFlying && !isSliding)
-            {
-                Debug.Log("OnCrouch 중");
-                isCrouching = true;
-                animator.SetBool("Crouching", isCrouching);
-            }
-
-            if (isSliding)
-            {
-                // isSliding = false;
-                // animator.SetBool("isSlide", isSliding);
-                animator.Play("Sliding");
-            }
-
-            Debug.Log("진입 중");
-            yield return new WaitForFixedUpdate();
-        }
-    }
-    void OnExit(InputAction.CallbackContext context)
-    {
-        if (presseCo != null)
-        {
-            StopCoroutine(presseCo);
-        }
-        isCrouching = false;
-        animator.SetBool("Crouching", isCrouching);
-        Debug.Log("탈출");
-    }*/
-
     public void Slide()
     {
         Vector2 velocity = rigid.velocity;
@@ -310,22 +238,25 @@ public class Kriby : MonoBehaviour
     private void OnSlide(InputValue value)
     {
 
-        isCrouching = false;
-        animator.SetBool("Crouching", isCrouching);
+        if (isGround && !isFlying && animator.GetCurrentAnimatorStateInfo(0).IsName("Crouch"))
+        {
+            isCrouching = false;
+            animator.SetBool("Crouching", isCrouching);
 
-        isSliding = true;
-        animator.SetBool("isSlide", isSliding);
+            isSliding = true;
+            animator.SetBool("isSlide", isSliding);
 
-        Slide();
+            Slide();
 
-        animator.Play("Sliding");
+            animator.Play("Sliding");
+        }
     }
 
     // 풍선
 
         private void OnBalloon(InputValue value)
     {
-        if (!isGround)
+        if (!isGround && isJumping)
         {
             isFlying = true;
             rigid.gravityScale = flyGravity;
@@ -343,47 +274,5 @@ public class Kriby : MonoBehaviour
         }
     }
 
-    /*Coroutine presseCo = null;
-
-    void OnEnter(InputAction.CallbackContext context)
-    {
-        if (presseCo != null)
-        {
-            StopCoroutine(presseCo);
-        }
-        presseCo = StartCoroutine(OnPressed());
-
-        Debug.Log("진입");
-    }
-    IEnumerator OnPressed()
-    {
-        yield return new WaitForSeconds(0.2f);
-        while(true)
-        {
-            if (!isGround)
-            {
-                Debug.Log("BallonFly 중");
-                isFlying = true;
-                animator.SetBool("JumpUp", false);
-                animator.SetBool("Fly", isFlying);
-
-                rigid.gravityScale = flyGravity;
-            }
-
-            Debug.Log("진입 중");
-            yield return new WaitForFixedUpdate();
-        }
-    }
-    void OnExit(InputAction.CallbackContext context)
-    {
-        if (presseCo != null)
-        {
-            StopCoroutine(presseCo);
-        }
-        isFlying = false;
-        animator.SetBool("Fly", isFlying);
-        rigid.gravityScale = 1.0f;
-        Debug.Log("탈출");
-    }*/
-
+    // 공격 입기
 }

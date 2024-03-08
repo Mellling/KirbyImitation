@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 15349650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: -12.945118, y: -2.2120037}
+  m_Offset: {x: -12.983613, y: -2.4591112}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1001,7 +1001,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8882179, y: 0.9662086}
+  m_Size: {x: 0.8112278, y: 1.4604237}
   m_EdgeRadius: 0
 --- !u!61 &843303643
 BoxCollider2D:
@@ -1035,7 +1035,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: 22.353428, y: -2.0672421}
+  m_Offset: {x: 22.39868, y: -2.0672421}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1046,7 +1046,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 54.855644, y: 0.72526836}
+  m_Size: {x: 54.76514, y: 0.72526836}
   m_EdgeRadius: 0
 --- !u!61 &843303644
 BoxCollider2D:
@@ -1192,7 +1192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847369579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1285,22 +1285,22 @@ CompositeCollider2D:
     m_ColliderPaths:
     - - X: 464631200
         Y: -3612208
-      - X: 1723661
+      - X: 2487392
         Y: -3612208
-      - X: 1723661
+      - X: 2487392
         Y: -9732494
       - X: 464631200
         Y: -9732494
   - m_Collider: {fileID: 843303640}
     m_ColliderPaths:
-    - - X: -60946940
+    - - X: -61596632
         Y: -3817196
       - X: -68442296
         Y: -3817196
       - X: -68442296
-        Y: -11970692
-      - X: -60946940
-        Y: -11970692
+        Y: -16141198
+      - X: -61596632
+        Y: -16141198
   - m_Collider: {fileID: 843303638}
     m_ColliderPaths:
     - - X: -163595536
@@ -1374,19 +1374,19 @@ CompositeCollider2D:
       - {x: 8.415956, y: 1.8446571}
       - {x: 7.94676, y: 0.9663515}
       - {x: 10.431523, y: -0.3612208}
-      - {x: 0.1723661, y: -0.3612501}
-      - {x: 0.17239541, y: -0.97324944}
+      - {x: 0.2487392, y: -0.3612501}
+      - {x: 0.24876851, y: -0.97324944}
       - {x: 11.577273, y: -0.9732524}
     - - {x: -16.359583, y: -1.2276478}
       - {x: -16.359583, y: -0.3422236}
       - {x: -20.242964, y: -0.3422529}
       - {x: -20.242935, y: -1.2276478}
-    - - {x: -6.094723, y: -1.1970692}
-      - {x: -6.094723, y: -0.38171962}
-      - {x: -6.8442297, y: -0.3817489}
-      - {x: -6.8442, y: -1.1970692}
     - - {x: 0.0670178, y: -4.539738}
       - {x: 0.0670178, y: -1.2939687}
+      - {x: -6.159663, y: -1.2939394}
+      - {x: -6.1596923, y: -0.38171962}
+      - {x: -6.8442297, y: -0.3817489}
+      - {x: -6.8442593, y: -1.2939687}
       - {x: -37.32802, y: -1.293998}
       - {x: -37.32799, y: -4.539738}
   m_VertexDistance: 0.0005
@@ -1532,7 +1532,7 @@ GameObject:
   - component: {fileID: 1014796274}
   - component: {fileID: 1014796276}
   - component: {fileID: 1014796275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,9 +1832,10 @@ GameObject:
   - component: {fileID: 1066655420}
   - component: {fileID: 1066655419}
   - component: {fileID: 1066655418}
+  - component: {fileID: 1066655421}
   - component: {fileID: 1066655417}
   - component: {fileID: 1066655416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WaddleDoo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1968,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2003177808, guid: 0dd41321f616444428b7283f7fdcb075, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.1875, y: 1.375}
@@ -1991,6 +1992,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066655421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066655415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e933b85a284d549a43d3a83857ec3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigid: {fileID: 1066655416}
+  render: {fileID: 1066655419}
+  canFowardCheakLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  PlayerCheakLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1108393183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,7 +2201,10 @@ GameObject:
   - component: {fileID: 1666705743}
   - component: {fileID: 1666705742}
   - component: {fileID: 1666705741}
-  m_Layer: 0
+  - component: {fileID: 1666705745}
+  - component: {fileID: 1666705744}
+  - component: {fileID: 1666705746}
+  m_Layer: 7
   m_Name: block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2234,7 +2258,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -25.05962, y: -0.33668745}
+  m_Offset: {x: -25.05962, y: -0.41367906}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2245,7 +2269,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8052902, y: 3.0201247}
+  m_Size: {x: 0.8052902, y: 2.8661413}
   m_EdgeRadius: 0
 --- !u!61 &1666705742
 BoxCollider2D:
@@ -2337,6 +2361,141 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 4.7911043}
   m_EdgeRadius: 0
+--- !u!61 &1666705744
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666705739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -39.15368, y: -2.236834}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32062912, y: 0.56118774}
+  m_EdgeRadius: 0
+--- !u!61 &1666705745
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666705739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -31.318787, y: -2.210615}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34178162, y: 0.74871397}
+  m_EdgeRadius: 0
+--- !u!61 &1666705746
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666705739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.52, y: 1.45}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95, y: 3.4233806}
+  m_EdgeRadius: 0
 --- !u!1 &1675698681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,7 +2507,7 @@ GameObject:
   - component: {fileID: 1675698682}
   - component: {fileID: 1675698684}
   - component: {fileID: 1675698683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2510,7 +2669,7 @@ GameObject:
   - component: {fileID: 1711078154}
   - component: {fileID: 1711078156}
   - component: {fileID: 1711078155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2629,11 +2788,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1820465296 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5688182066395867223, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
-  m_PrefabInstance: {fileID: 5113413726585935024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1834982064 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9094293904323413564, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
@@ -2744,9 +2898,10 @@ GameObject:
   - component: {fileID: 1960139216}
   - component: {fileID: 1960139215}
   - component: {fileID: 1960139214}
+  - component: {fileID: 1960139217}
   - component: {fileID: 1960139213}
   - component: {fileID: 1960139212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WaddleDee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2903,6 +3058,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960139217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960139211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e933b85a284d549a43d3a83857ec3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigid: {fileID: 1960139212}
+  render: {fileID: 1960139215}
+  canFowardCheakLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  PlayerCheakLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &2074886252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,7 +3257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ActionEvents.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_ActionId
@@ -3102,7 +3277,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ActionEvents.Array.data[4].m_ActionId
-      value: a2d598c6-e47e-4a53-93cb-085b2d52b8e5
+      value: dd5df252-2560-4625-ac19-dd28840e4357
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionId
+      value: 539ac55e-d10e-4d2b-950e-e2aadaa1ba1a
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_ActionId
+      value: 237327fb-191d-4a46-8c38-b56130a2d28b
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_ActionName
@@ -3125,8 +3308,16 @@ PrefabInstance:
       value: Player/Balloon[/Keyboard/space]
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionName
+      value: Player/BalloonClear[/Keyboard/r]
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_ActionName
+      value: Player/Slide[/Keyboard/f]
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ControlsChangedEvent.m_PersistentCalls.m_Calls.Array.size
@@ -3142,12 +3333,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1820465296}
+      objectReference: {fileID: 0}
     - target: {fileID: 6082998759634488145, guid: b6a6415dde2143847ab22eafcb981087, type: 3}
       propertyPath: m_ControlsChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
