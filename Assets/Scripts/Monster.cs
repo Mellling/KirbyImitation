@@ -39,7 +39,6 @@ public class Monster : MonoBehaviour
     {
         if (canFowardCheakLayer.Contain(collision.gameObject.layer))
         {
-            Debug.Log(" OnCollisionEnter");
             render.flipX = !render.flipX;
         }
         // else if (PlayerCheakLayer.Contain(collision.gameObject.layer)) 
