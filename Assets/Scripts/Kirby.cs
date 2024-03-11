@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 using UnityEngine.InputSystem.XR.Haptics;
 
-public class Kriby : MonoBehaviour
+public class Kirby : MonoBehaviour
 {
     [Header("Componemt")]
     [SerializeField] Rigidbody2D rigid;
@@ -31,8 +31,6 @@ public class Kriby : MonoBehaviour
     [SerializeField] float flyXMaxSpeed;
     [SerializeField] float flyYMaxSpeed;
 
-    [SerializeField] int Hp;
-
     [SerializeField] LayerMask groundCheakLayer;
 
     private Vector2 moveDir;
@@ -42,6 +40,10 @@ public class Kriby : MonoBehaviour
     private bool isFlying;
     private bool isCrouching;
     private bool isSliding;
+
+    private static string kirbyName;
+
+    public static string KirbyName() { return kirbyName; }
 
     /*private static Kriby instanse;
 
