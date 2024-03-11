@@ -41,9 +41,5 @@ public class Monster : MonoBehaviour
         {
             render.flipX = !render.flipX;
         }
-        // else if (PlayerCheakLayer.Contain(collision.gameObject.layer)) 
-        {
-
-        }
     }
 }

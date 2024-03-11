@@ -45,25 +45,6 @@ public class Kirby : MonoBehaviour
 
     public static string KirbyName() { return kirbyName; }
 
-    /*private static Kriby instanse;
-
-    public static Kriby GetInstanse() { return instanse; }
-
-    private void Awake()
-    {
-        if (instanse == null)
-        {
-            instanse = new Kriby();
-            Destroy(this);
-
-            return;
-        }
-
-        instanse = this;
-    }
-
-    private Kriby() { }*/
-
     private void FixedUpdate()
     {
         Move();

@@ -156,10 +156,10 @@ MonoBehaviour:
   render: {fileID: 5934776017018640259}
   animator: {fileID: 7244086012946245906}
   inputAction: {fileID: -944628639613478452, guid: 276fc12af3d39b64ba94ff5f2edeca5b, type: 3}
-  movePower: 6.96
+  movePower: 5.8
   brakePower: 15.5
-  maxXSpeed: 5.37
-  jumpSpeed: 11.9
+  maxXSpeed: 5.3
+  jumpSpeed: 11.26
   runPower: 10
   runmaxSpeed: 6
   flyGravity: 0.49
@@ -183,7 +183,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -229,6 +229,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000029802322, y: -0.30656785}
-  m_Size: {x: 0.9858652, y: 0.98586524}
+  m_Offset: {x: -0.00000002980232, y: -0.489}
+  m_Size: {x: 0.987904, y: 1}
   m_Direction: 0
