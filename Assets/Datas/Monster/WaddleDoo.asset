@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62ff4e70939356f4a8aacb014431a2ee, type: 3}
-  m_Name: Spark
+  m_Name: WaddleDoo
   m_EditorClassIdentifier: 
-  getableAbility: {fileID: 11400000, guid: 6073f8f09ca838843a19b0686180513e, type: 2}
-  monster: {fileID: 2240737601389856758, guid: af235c2818960c544b984823a9760ac4, type: 3}
+  getableAbility: {fileID: 11400000, guid: e73801fd586877a4db499c416d0519fb, type: 2}
+  monster: {fileID: 440823958891981898, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}

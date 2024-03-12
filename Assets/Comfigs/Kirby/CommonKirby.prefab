@@ -210,6 +210,9 @@ MonoBehaviour:
   groundCheakLayer:
     serializedVersion: 2
     m_Bits: 64
+  MonsterCheakLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!50 &905855894850350520
 Rigidbody2D:
   serializedVersion: 4

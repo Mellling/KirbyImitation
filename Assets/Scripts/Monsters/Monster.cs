@@ -8,9 +8,11 @@ public class Monster : MonoBehaviour
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] SpriteRenderer render;
 
-    [Header("Property")]
+    // [Header("Property")]
     /*[SerializeField] int Hp;
     [SerializeField] int Hit;*/
+    // [SerializeField] string name;
+    public string Name() { return name; }
 
     [SerializeField] LayerMask canFowardCheakLayer;
     [SerializeField] LayerMask PlayerCheakLayer;
@@ -40,12 +42,6 @@ public class Monster : MonoBehaviour
         if (canFowardCheakLayer.Contain(collision.gameObject.layer))
         {
             render.flipX = !render.flipX;
-        }
-
-        if (PlayerCheakLayer.Contain(collision.gameObject.layer))
-        {
-            Manager.GetInstanse().GetMonsterData(this);
-            Debug.Log("GetMonstersIP");
         }
     }
 }

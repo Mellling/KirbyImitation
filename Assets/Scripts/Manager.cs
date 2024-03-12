@@ -16,14 +16,9 @@ public class Manager : MonoBehaviour
 
     private MonsterData monsterData;
 
-    private Monster monster;
-    public Monster GetMonsterData(Monster monster) { return this.monster = monster; }
+    private GameObject monster;
+    public GameObject GetMonsterData(GameObject monster) { return this.monster = monster; }
     public static Manager GetInstanse() { return instanse; }
-
-    private void Update()
-    {
-        
-    }
 
     private void Awake()
     {
@@ -44,21 +39,23 @@ public class Manager : MonoBehaviour
 
     public void ChangeKirbyAblility()
     {
-        if (kirbyData.KirbyAbility != "Common")
+        if (kirbyData.KirbyAbility != "Common" || monster == null)
         {
             return;
         }
 
-        foreach(MonsterData wantFindMonster in monsterList) 
+        foreach (MonsterData wantFindMonster in monsterList) 
         {
-            if (wantFindMonster.GetMonster == monster)
+            if (wantFindMonster.GetMonster.name == monster.name)
             {
                 monsterData = wantFindMonster;
                 break;
             }
         }
 
-        Vector3 position = gameObject.transform.position;
+        kirbyData = monsterData.GetableAbility;
+
+        Vector3 position = transform.GetChild(0).gameObject.transform.position;
         Destroy(transform.GetChild(0).gameObject);
         GameObject newKirby = Instantiate(monsterData.GetableAbility.Kirby, position, Quaternion.identity);
         newKirby.transform.parent = transform;

@@ -8,6 +8,7 @@ public class KirbyData : ScriptableObject
     [SerializeField]
     string kirbyAbility;
     public string KirbyAbility { get { return kirbyAbility; } }
+
     [SerializeField]
     GameObject kirby;
     public GameObject Kirby { get { return kirby; } }

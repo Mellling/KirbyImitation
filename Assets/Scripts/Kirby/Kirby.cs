@@ -184,6 +184,9 @@ public class Kirby : MonoBehaviour
 
         if (MonsterCheakLayer.Contain(collision.gameObject.layer)) 
         {
+            new WaitForSeconds(5.0f);
+            Monster monster = collision.gameObject.GetComponent<Monster>();
+            Manager.GetInstanse().GetMonsterData(monster.gameObject);
             Manager.GetInstanse().ChangeKirbyAblility();
         }
     }
