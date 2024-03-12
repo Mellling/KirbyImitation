@@ -41,5 +41,11 @@ public class Monster : MonoBehaviour
         {
             render.flipX = !render.flipX;
         }
+
+        if (PlayerCheakLayer.Contain(collision.gameObject.layer))
+        {
+            Manager.GetInstanse().GetMonsterData(this);
+            Debug.Log("GetMonstersIP");
+        }
     }
 }

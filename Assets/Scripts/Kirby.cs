@@ -32,6 +32,7 @@ public class Kirby : MonoBehaviour
     [SerializeField] float flyYMaxSpeed;
 
     [SerializeField] LayerMask groundCheakLayer;
+    [SerializeField] LayerMask MonsterCheakLayer;
 
     private Vector2 moveDir;
     private bool isGround;
@@ -40,6 +41,9 @@ public class Kirby : MonoBehaviour
     private bool isFlying;
     private bool isCrouching;
     private bool isSliding;
+
+    private bool getMonster;
+    public bool GetMonster { get { return getMonster; } } 
 
     private static string kirbyName;
 
@@ -177,6 +181,11 @@ public class Kirby : MonoBehaviour
                 animator.SetBool("JumpUp", false);
             }
         }
+
+        if (MonsterCheakLayer.Contain(collision.gameObject.layer)) 
+        {
+            Manager.GetInstanse().ChangeKirbyAblility();
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -277,4 +286,12 @@ public class Kirby : MonoBehaviour
     }
 
     // 공격 입기
+
+    /*private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (MonsterCheakLayer.Contain(collision.gameObject.layer))
+        {
+            getMonster = true;
+        }
+    }*/
 }

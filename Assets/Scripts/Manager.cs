@@ -10,7 +10,14 @@ public class Manager : MonoBehaviour
 
     [Header("Kirby")]
     [SerializeField] KirbyData kirbyData;
-    [SerializeField] KirbyData kirbyData2;
+
+    [Header("Monster")]
+    [SerializeField] MonsterData[] monsterList;
+
+    private MonsterData monsterData;
+
+    private Monster monster;
+    public Monster GetMonsterData(Monster monster) { return this.monster = monster; }
     public static Manager GetInstanse() { return instanse; }
 
     private void Update()
@@ -28,19 +35,32 @@ public class Manager : MonoBehaviour
         }
         Debug.Log(hp);
         instanse = this;
-
-        if (kirbyData != kirbyData2)
-        {
-            Debug.Log("In");
-            Vector3 position = gameObject.transform.position;
-            Destroy(transform.GetChild(0).gameObject);
-            GameObject newKirby = Instantiate(kirbyData2.Kirby, position, Quaternion.identity);
-            newKirby.transform.parent = transform;
-        }
     }
 
-    private Manager() 
+    private Manager()
     {
         hp = 100;
+    }
+
+    public void ChangeKirbyAblility()
+    {
+        if (kirbyData.KirbyAbility != "Common")
+        {
+            return;
+        }
+
+        foreach(MonsterData wantFindMonster in monsterList) 
+        {
+            if (wantFindMonster.GetMonster == monster)
+            {
+                monsterData = wantFindMonster;
+                break;
+            }
+        }
+
+        Vector3 position = gameObject.transform.position;
+        Destroy(transform.GetChild(0).gameObject);
+        GameObject newKirby = Instantiate(monsterData.GetableAbility.Kirby, position, Quaternion.identity);
+        newKirby.transform.parent = transform;
     }
 }
