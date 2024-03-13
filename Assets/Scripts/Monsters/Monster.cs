@@ -7,11 +7,11 @@ public class Monster : MonoBehaviour
     [Header("Componemt")]
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] SpriteRenderer render;
+    //[SerializeField] Animator animator;
 
-    // [Header("Property")]
-    /*[SerializeField] int Hp;
-    [SerializeField] int Hit;*/
-    // [SerializeField] string name;
+    public Rigidbody2D Rigid { get { return rigid; } }
+    public SpriteRenderer Render { get { return render; } }
+
     public string Name() { return name; }
 
     [SerializeField] LayerMask canFowardCheakLayer;
@@ -22,7 +22,7 @@ public class Monster : MonoBehaviour
         Move();
     }
 
-    public void Move()
+    public virtual void Move()
     {
         Vector2 velocity = rigid.velocity;
 
@@ -37,7 +37,7 @@ public class Monster : MonoBehaviour
         rigid.velocity = velocity;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected void OnCollisionEnter2D(Collision2D collision)
     {
         if (canFowardCheakLayer.Contain(collision.gameObject.layer))
         {

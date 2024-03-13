@@ -1,6 +1,9 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+using UnityEngine.UIElements;
 
 public class Manager : MonoBehaviour
 {
@@ -13,6 +16,8 @@ public class Manager : MonoBehaviour
 
     [Header("Monster")]
     [SerializeField] MonsterData[] monsterList;
+
+    [SerializeField] CinemachineVirtualCamera camera;
 
     private MonsterData monsterData;
 
@@ -59,5 +64,7 @@ public class Manager : MonoBehaviour
         Destroy(transform.GetChild(0).gameObject);
         GameObject newKirby = Instantiate(monsterData.GetableAbility.Kirby, position, Quaternion.identity);
         newKirby.transform.parent = transform;
+
+        // camera.Follow = transform.GetChild(0).gameObject.transform;
     }
 }

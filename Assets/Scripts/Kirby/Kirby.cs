@@ -196,6 +196,17 @@ public class Kirby : MonoBehaviour
         if (groundCheakLayer.Contain(collision.gameObject.layer))
         {
             isGround = false;
+
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")
+                || animator.GetCurrentAnimatorStateInfo(0).IsName("Walk")
+                || animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                if (isJumping)
+                {
+                    return;
+                }
+                animator.Play("JumpDown", 0);
+            }
         }
     }
 
@@ -288,13 +299,31 @@ public class Kirby : MonoBehaviour
         }
     }
 
-    // 공격 입기
+    // 흡입
 
-    /*private void OnTriggerEnter2D(Collider2D collision)
+    private void OnInhale(InputValue value)
     {
-        if (MonsterCheakLayer.Contain(collision.gameObject.layer))
+        if (!isGround)
         {
-            getMonster = true;
+            return;
         }
-    }*/
+
+        if (value.isPressed)
+        {
+            animator.SetBool("Inhaling", true);
+            animator.Play("Inhaling");
+
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Inhaling")
+                && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+            {
+                animator.Play("Inhale");
+            }
+        }
+        else if (!value.isPressed)
+        {
+            animator.SetBool("Inhaling", false);
+        }
+    }
+
+    
 }

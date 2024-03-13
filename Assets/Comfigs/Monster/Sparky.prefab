@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6851859584257553509}
   - component: {fileID: 4211965565610476805}
   - component: {fileID: 6525737497429340486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sparky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,6 +129,11 @@ MonoBehaviour:
   PlayerCheakLayer:
     serializedVersion: 2
     m_Bits: 8
+  groundCheakLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  jumpPower: 4
+  animator: {fileID: 3063958504958824502}
 --- !u!70 &4211965565610476805
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

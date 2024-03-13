@@ -128,7 +128,7 @@ MonoBehaviour:
     m_Bits: 128
   PlayerCheakLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!70 &1534959923364311990
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
