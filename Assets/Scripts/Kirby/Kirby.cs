@@ -13,6 +13,7 @@ public class Kirby : MonoBehaviour
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] SpriteRenderer render;
     [SerializeField] Animator animator;
+    public Animator Animator {  get { return animator; } }
     [SerializeField] InputActionAsset inputAction;
 
     [Header("Property")]
@@ -36,6 +37,7 @@ public class Kirby : MonoBehaviour
 
     private Vector2 moveDir;
     private bool isGround;
+    public bool IsGround {  get { return isGround; } }
     private bool isJumping;
     private bool isRunning;
     private bool isFlying;
@@ -296,32 +298,6 @@ public class Kirby : MonoBehaviour
             isFlying = false;
             rigid.gravityScale = 1.0f;
             animator.SetBool("Fly", isFlying);
-        }
-    }
-
-    // ÈíÀÔ
-
-    private void OnInhale(InputValue value)
-    {
-        if (!isGround)
-        {
-            return;
-        }
-
-        if (value.isPressed)
-        {
-            animator.SetBool("Inhaling", true);
-            animator.Play("Inhaling");
-
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Inhaling")
-                && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
-            {
-                animator.Play("Inhale");
-            }
-        }
-        else if (!value.isPressed)
-        {
-            animator.SetBool("Inhaling", false);
         }
     }
 
