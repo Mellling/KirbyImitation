@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 using UnityEngine.UIElements;
+using Unity.VisualScripting;
 
 public class Manager : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class Manager : MonoBehaviour
 
     private GameObject monster;
     public GameObject GetMonsterData(GameObject monster) { return this.monster = monster; }
+
     public static Manager GetInstanse() { return instanse; }
 
     private void Awake()
@@ -65,6 +67,13 @@ public class Manager : MonoBehaviour
         GameObject newKirby = Instantiate(monsterData.GetableAbility.Kirby, position, Quaternion.identity);
         newKirby.transform.parent = transform;
 
+        Destroy(monster);
+
         // camera.Follow = transform.GetChild(0).gameObject.transform;
+    }
+
+    public void DestroyMonster()
+    {
+        Destroy(monster);
     }
 }

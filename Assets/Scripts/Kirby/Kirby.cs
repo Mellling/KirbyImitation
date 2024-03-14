@@ -85,7 +85,8 @@ public class Kirby : MonoBehaviour
 
     private void Moving(float max, float power)
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Crouch"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Crouch")
+            || animator.GetCurrentAnimatorStateInfo(0).IsName("Keep"))
         {
             power = 0;
         }
@@ -223,6 +224,11 @@ public class Kirby : MonoBehaviour
 
     private void OnCrouch(InputValue value)
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Keep"))
+        {
+            return;
+        }
+
         if (isSliding)
         {
             isSliding = false;

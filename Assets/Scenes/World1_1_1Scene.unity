@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonKirby
       objectReference: {fileID: 0}
+    - target: {fileID: 2221696238699299314, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: -20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -842,6 +846,11 @@ Transform:
 CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 8945489529562462044, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
   m_PrefabInstance: {fileID: 72568834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &791137775 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 690936439253307985, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
+  m_PrefabInstance: {fileID: 8263220125013467729}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &843303633
 GameObject:
@@ -1717,6 +1726,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1101038710 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 539036863753796542, guid: 829b8cd49f1ce1448aed758d1063d0f5, type: 3}
+  m_PrefabInstance: {fileID: 4186288413876338547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1108393183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,6 +2719,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5406871645131390420, guid: 829b8cd49f1ce1448aed758d1063d0f5, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1101038710}
+    - target: {fileID: 5406871645131390420, guid: 829b8cd49f1ce1448aed758d1063d0f5, type: 3}
       propertyPath: PlayerCheakLayer.m_Bits
       value: 8
       objectReference: {fileID: 0}
@@ -2850,6 +2868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaddleDoo
       objectReference: {fileID: 0}
+    - target: {fileID: 2155889233076799320, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 791137775}
     - target: {fileID: 2155889233076799320, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
       propertyPath: playerCheakLayer.m_Bits
       value: 8

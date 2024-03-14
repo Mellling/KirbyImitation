@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class CommonKirby : Kirby
 {
@@ -47,33 +49,46 @@ public class CommonKirby : Kirby
 
         if (GetMonsterCheak.Contain(collision.gameObject.layer))
         {
-            Monster monster = collision.gameObject.GetComponent<Monster>();
-            MonsterIn(monster);
-
-            //
+            if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Inhale"))
+            {
+                Monster monster = collision.gameObject.GetComponent<Monster>();
+                MonsterIn(monster.gameObject);
+            }
+            else
+            {
+                Debug.Log("데미지");
+            }
         }
     }
 
-    private void MonsterIn(Monster monster)
+    private void MonsterIn(GameObject monster)
     {
-        Manager.GetInstanse().GetMonsterData(monster.gameObject);
-        Destroy(monster.gameObject);
+        Manager.GetInstanse().GetMonsterData(monster);
+        monster.SetActive(false);
 
         Animator.Play("Keep");
         keeping = true;
         Animator.SetBool("Keeping", keeping);
+    }
+
+    Coroutine change;
+
+    IEnumerator Chang()
+    {
+        keeping = false;
+        Animator.SetBool("Keeping", keeping);
+
+        yield return new WaitForSeconds(0.2f);
 
         Manager.GetInstanse().ChangeKirbyAblility();
+        StopCoroutine(change);
     }
 
     private void OnChange(InputValue value)
     {
         if (value.isPressed && keeping) 
         {
-            keeping = false;
-            Animator.SetBool("Keeping", keeping);
-
-            // Manager.GetInstanse().ChangeKirbyAblility();
+            change = StartCoroutine(Chang());
         }
     }
 
@@ -81,7 +96,6 @@ public class CommonKirby : Kirby
     {
         targetRange.enabled = true;
         transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
-        //transform.GetChild(0).GetComponent<Collider2D>()
     }
 
     private void DisInhalable()
@@ -90,16 +104,22 @@ public class CommonKirby : Kirby
         transform.GetChild(0).GetComponent<Collider2D>().enabled = false;
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (GetMonsterCheak.Contain(collision.gameObject.layer))
-        {
-            Debug.Log("집에가고싶다");
-        }
-    }
-
     private void TargetIn()
     {
         Collider2D target = Physics2D.OverlapCircle(transform.position, range);
+    }
+
+    private void OnSpitOut(InputValue value)
+    {
+        if (value.isPressed && keeping)
+        {
+            if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Keep"))
+            {
+                Animator.Play("SpritOut");
+                keeping = false;
+                Animator.SetBool("Keeping", keeping);
+                Manager.GetInstanse().DestroyMonster();
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : MonoBehaviour, IPullable
+public class Monster : MonoBehaviour
 {
     [Header("Componemt")]
     [SerializeField] Rigidbody2D rigid;
@@ -20,7 +20,10 @@ public class Monster : MonoBehaviour, IPullable
 
     private void Update()
     {
-        Move();
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+        {
+            Move();
+        }
     }
 
     public virtual void Move()
@@ -50,13 +53,7 @@ public class Monster : MonoBehaviour, IPullable
     {
         if (playerCheakLayer.Contain(collision.gameObject.layer))
         {
-            OntargetRange();
             animator.Play("Die");
         }
-    }
-
-    public void OntargetRange()
-    {
-        Debug.Log("트리거 안");
     }
 }
