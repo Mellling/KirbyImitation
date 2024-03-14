@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+public class Monster : MonoBehaviour, IPullable
 {
     [Header("Componemt")]
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] SpriteRenderer render;
-    //[SerializeField] Animator animator;
+    [SerializeField] Animator animator;
+    public Animator Animator { get { return animator; } }
 
     public Rigidbody2D Rigid { get { return rigid; } }
     public SpriteRenderer Render { get { return render; } }
@@ -15,7 +16,7 @@ public class Monster : MonoBehaviour
     public string Name() { return name; }
 
     [SerializeField] LayerMask canFowardCheakLayer;
-    [SerializeField] LayerMask PlayerCheakLayer;
+    [SerializeField] LayerMask playerCheakLayer;
 
     private void Update()
     {
@@ -43,5 +44,19 @@ public class Monster : MonoBehaviour
         {
             render.flipX = !render.flipX;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (playerCheakLayer.Contain(collision.gameObject.layer))
+        {
+            OntargetRange();
+            animator.Play("Die");
+        }
+    }
+
+    public void OntargetRange()
+    {
+        Debug.Log("트리거 안");
     }
 }

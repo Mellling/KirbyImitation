@@ -6,19 +6,17 @@ public class Spark : Monster
 {
     [SerializeField] LayerMask groundCheakLayer;
     [SerializeField] float jumpPower;
-    [SerializeField] Animator animator;
 
     private bool isGround;
     private bool jumpHightest;
 
     public override void Move()
     {
-        Debug.Log(Rigid.velocity.y);
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")
-            && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")
+            && Animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
             Moving();
-            animator.Play("Jump", 0);
+            Animator.Play("Jump", 0);
         }
 
         if (!isGround)
@@ -56,7 +54,7 @@ public class Spark : Monster
         if (groundCheakLayer.Contain(collision.gameObject.layer))
         {
             isGround = true;
-            animator.Play("Idle", 0);
+            Animator.Play("Idle", 0);
         }
     }
 
@@ -70,15 +68,20 @@ public class Spark : Monster
 
     private void CheakJumpSituation()
     {
+        if (Rigid == null)
+        {
+            return;
+        }
+
         if (!(Rigid.velocity.y < 0 && Rigid.velocity.y > 0)) // ¼öÁ¤
         {
             jumpHightest = true;
-            animator.SetBool("JumpHightest", jumpHightest);
+            Animator.SetBool("JumpHightest", jumpHightest);
         }
         else if (Rigid.velocity.y < 0)
         {
             jumpHightest = false;
-            animator.SetBool("JumpHightest", jumpHightest);
+            Animator.SetBool("JumpHightest", jumpHightest);
         }
     }
 }
