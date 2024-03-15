@@ -2,7 +2,6 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Cinemachine;
 using UnityEngine.UIElements;
 using Unity.VisualScripting;
 
@@ -10,10 +9,16 @@ public class Manager : MonoBehaviour
 {
     private static Manager instanse;
 
-    private int hp;
+    private int kirbyHp;
+    public int KirbyHp {  get { return kirbyHp; } }
+
+    [SerializeField]
+    private int kirbyDamage;
+    public int KirbyDamage { get { return kirbyDamage; } }
 
     [Header("Kirby")]
     [SerializeField] KirbyData kirbyData;
+    public KirbyData KirbyData {  get { return kirbyData; } }
 
     [Header("Monster")]
     [SerializeField] MonsterData[] monsterList;
@@ -23,7 +28,7 @@ public class Manager : MonoBehaviour
     private MonsterData monsterData;
 
     private GameObject monster;
-    public GameObject GetMonsterData(GameObject monster) { return this.monster = monster; }
+    public GameObject SetMonsterData(GameObject monster) { return this.monster = monster; }
 
     public static Manager GetInstanse() { return instanse; }
 
@@ -35,13 +40,13 @@ public class Manager : MonoBehaviour
 
             return;
         }
-        Debug.Log(hp);
+        Debug.Log(kirbyHp);
         instanse = this;
     }
 
     private Manager()
     {
-        hp = 100;
+        kirbyHp = 100;
     }
 
     public void ChangeKirbyAblility()
@@ -60,6 +65,12 @@ public class Manager : MonoBehaviour
             }
         }
 
+        if (monsterData.GetableAbility ==  null) 
+        {
+            Destroy(monster);
+            return;
+        }
+
         kirbyData = monsterData.GetableAbility;
 
         Vector3 position = transform.GetChild(0).gameObject.transform.position;
@@ -68,12 +79,16 @@ public class Manager : MonoBehaviour
         newKirby.transform.parent = transform;
 
         Destroy(monster);
-
-        // camera.Follow = transform.GetChild(0).gameObject.transform;
     }
 
     public void DestroyMonster()
     {
         Destroy(monster);
+    }
+
+    public void GetDamage(int damage)
+    {
+        kirbyHp -= damage;
+        Debug.Log($"hp: {kirbyHp}");
     }
 }

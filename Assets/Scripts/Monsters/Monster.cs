@@ -15,14 +15,34 @@ public class Monster : MonoBehaviour
 
     public string Name() { return name; }
 
+    [SerializeField]
+    private int hp;
+
     [SerializeField] LayerMask canFowardCheakLayer;
     [SerializeField] LayerMask playerCheakLayer;
+
+    Coroutine monsterDie;
+
+    IEnumerator MonsterDie()
+    {
+        animator.Play("Die");
+
+        yield return new WaitForSeconds(0.5f);
+
+        Destroy(gameObject);
+        StopCoroutine(monsterDie);
+    }
 
     private void Update()
     {
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Die"))
         {
             Move();
+        }
+
+        if (hp == 0)
+        {
+            monsterDie = StartCoroutine(MonsterDie());
         }
     }
 
@@ -46,6 +66,13 @@ public class Monster : MonoBehaviour
         if (canFowardCheakLayer.Contain(collision.gameObject.layer))
         {
             render.flipX = !render.flipX;
+        }
+
+        if (playerCheakLayer.Contain(collision.gameObject.layer)
+            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+        {
+            hp -= Manager.GetInstanse().KirbyDamage;
+            Debug.Log($"Monster Hp : {hp}");
         }
     }
 

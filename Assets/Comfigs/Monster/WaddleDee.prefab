@@ -123,10 +123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigid: {fileID: 8328656822353270907}
   render: {fileID: 1024213614268097829}
+  animator: {fileID: 539036863753796542}
   canFowardCheakLayer:
     serializedVersion: 2
     m_Bits: 128
-  PlayerCheakLayer:
+  playerCheakLayer:
     serializedVersion: 2
     m_Bits: 8
 --- !u!70 &1534959923364311990

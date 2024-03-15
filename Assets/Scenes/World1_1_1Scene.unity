@@ -319,11 +319,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 601552391325621143, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.3
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 601552391325621143, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 601552391325621143, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
       propertyPath: m_LocalPosition.z
@@ -357,17 +357,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 737967458398182033, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
-      propertyPath: targetRange
-      value: 
-      objectReference: {fileID: 779064733}
     - target: {fileID: 1162985953534475239, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
       propertyPath: m_Name
       value: CommonKirby
-      objectReference: {fileID: 0}
-    - target: {fileID: 2221696238699299314, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
-      propertyPath: m_ForceMagnitude
-      value: -20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -722,7 +714,7 @@ Transform:
   m_GameObject: {fileID: 426207947}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.359406, y: 1.1121101, z: -9.73478}
+  m_LocalPosition: {x: -7.739317, y: 1.04029, z: -9.73478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -840,11 +832,6 @@ CanvasRenderer:
 --- !u!4 &669572901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 601552391325621143, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
-  m_PrefabInstance: {fileID: 72568834}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &779064733 stripped
-CircleCollider2D:
-  m_CorrespondingSourceObject: {fileID: 8945489529562462044, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
   m_PrefabInstance: {fileID: 72568834}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &791137775 stripped
@@ -1881,7 +1868,7 @@ Transform:
   m_GameObject: {fileID: 1174057764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.35, y: 5.3100004, z: -9.73478}
+  m_LocalPosition: {x: -16.93, y: 0.85, z: -9.73478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2390,6 +2377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ee6f26bdc3b8b459767cb7be2eaa95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kirbyDamage: 10
   kirbyData: {fileID: 11400000, guid: 330c630598f3b4d4b86e3b8ce7a4ee7c, type: 2}
   monsterList:
   - {fileID: 11400000, guid: e6955a2c0bbae4f4faca5c221570bfa5, type: 2}
@@ -2719,6 +2707,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5406871645131390420, guid: 829b8cd49f1ce1448aed758d1063d0f5, type: 3}
+      propertyPath: hp
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406871645131390420, guid: 829b8cd49f1ce1448aed758d1063d0f5, type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 1101038710}
@@ -2754,6 +2746,10 @@ PrefabInstance:
     - target: {fileID: 2240737601389856758, guid: af235c2818960c544b984823a9760ac4, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851859584257553509, guid: af235c2818960c544b984823a9760ac4, type: 3}
+      propertyPath: hp
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6851859584257553509, guid: af235c2818960c544b984823a9760ac4, type: 3}
       propertyPath: animator
@@ -2867,6 +2863,10 @@ PrefabInstance:
     - target: {fileID: 440823958891981898, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
       propertyPath: m_Name
       value: WaddleDoo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155889233076799320, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
+      propertyPath: hp
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2155889233076799320, guid: 1082f56a7e5a0a04887d71b77cd95ef4, type: 3}
       propertyPath: animator

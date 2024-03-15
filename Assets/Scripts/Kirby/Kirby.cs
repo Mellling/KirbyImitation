@@ -33,6 +33,7 @@ public class Kirby : MonoBehaviour
     [SerializeField] float flyYMaxSpeed;
 
     [SerializeField] LayerMask groundCheakLayer;
+    public LayerMask GetGroundCheak { get { return groundCheakLayer;  } }
     [SerializeField] LayerMask MonsterCheakLayer;
     public LayerMask GetMonsterCheak { get { return MonsterCheakLayer;  } }
 
@@ -64,6 +65,11 @@ public class Kirby : MonoBehaviour
 
         animator.SetBool("IsGround", isGround);
         animator.SetBool("Running", isRunning);
+
+        /*if (Manager.GetInstanse().KirbyHp == 0)
+        {
+
+        }*/
     }
 
     // 기본 움직임
@@ -126,6 +132,11 @@ public class Kirby : MonoBehaviour
     }
     private void OnMove(InputValue value)
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Inhale"))
+        {
+            return;
+        }
+
         moveDir = value.Get<Vector2>();
 
         if (moveDir.x < 0)
@@ -185,6 +196,13 @@ public class Kirby : MonoBehaviour
                 isJumping = false;
                 animator.SetBool("JumpUp", false);
             }
+        }
+
+        if (GetMonsterCheak.Contain(collision.gameObject.layer) 
+            && Manager.GetInstanse().KirbyData.KirbyAbility != "Common")
+        {
+            Manager.GetInstanse().GetDamage(20);
+            animator.Play("GetDamage");
         }
     }
 

@@ -216,7 +216,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   targetRange: {fileID: 8945489529562462044}
-  range: 0
 --- !u!50 &905855894850350520
 Rigidbody2D:
   serializedVersion: 4
@@ -325,6 +324,7 @@ GameObject:
   - component: {fileID: 1199572939955804516}
   - component: {fileID: 7379973787701486047}
   - component: {fileID: 2221696238699299314}
+  - component: {fileID: 4722175338554125972}
   m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
@@ -402,3 +402,23 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 0
   m_AngularDrag: 0
+--- !u!114 &4722175338554125972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8684278759706192212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0045254c126a9543b144d33f4673aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angle: 6.79
+  range: 32.03
+  targeMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 128

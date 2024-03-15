@@ -8,7 +8,6 @@ using UnityEngine.UIElements;
 public class CommonKirby : Kirby
 {
     [SerializeField] Collider2D targetRange;
-    [SerializeField] float range;
 
     private bool keeping;
 
@@ -45,8 +44,6 @@ public class CommonKirby : Kirby
 
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
-        base.OnCollisionEnter2D(collision);
-
         if (GetMonsterCheak.Contain(collision.gameObject.layer))
         {
             if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Inhale"))
@@ -56,14 +53,17 @@ public class CommonKirby : Kirby
             }
             else
             {
-                Debug.Log("µ¥¹ÌÁö");
+                Manager.GetInstanse().GetDamage(20);
+                Animator.Play("GetDamage");
             }
         }
+
+        base.OnCollisionEnter2D(collision);
     }
 
     private void MonsterIn(GameObject monster)
     {
-        Manager.GetInstanse().GetMonsterData(monster);
+        Manager.GetInstanse().SetMonsterData(monster);
         monster.SetActive(false);
 
         Animator.Play("Keep");
@@ -78,7 +78,7 @@ public class CommonKirby : Kirby
         keeping = false;
         Animator.SetBool("Keeping", keeping);
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.27f);
 
         Manager.GetInstanse().ChangeKirbyAblility();
         StopCoroutine(change);
@@ -102,11 +102,6 @@ public class CommonKirby : Kirby
     {
         targetRange.enabled = false;
         transform.GetChild(0).GetComponent<Collider2D>().enabled = false;
-    }
-
-    private void TargetIn()
-    {
-        Collider2D target = Physics2D.OverlapCircle(transform.position, range);
     }
 
     private void OnSpitOut(InputValue value)
