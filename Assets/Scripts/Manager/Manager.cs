@@ -9,21 +9,24 @@ public class Manager : MonoBehaviour
 {
     private static Manager instanse;
 
-    private int kirbyHp;
-    public int KirbyHp {  get { return kirbyHp; } }
-
-    [SerializeField]
-    private int kirbyDamage;
-    public int KirbyDamage { get { return kirbyDamage; } }
-
     [Header("Kirby")]
     [SerializeField] KirbyData kirbyData;
     public KirbyData KirbyData {  get { return kirbyData; } }
 
+    private static float KIRBYMAXHP = 100.0f;
+    public float GetKirbyMaxHp { get { return KIRBYMAXHP; } }
+
+    private float kirbyHp;
+    public float KirbyHp { get { return kirbyHp; } }
+
+    [SerializeField] private int kirbyDamage;
+    public int KirbyDamage { get { return kirbyDamage; } }
+
+    [SerializeField] GameObject abilityImage;
+    [SerializeField] GameObject abilityIcon;
+
     [Header("Monster")]
     [SerializeField] MonsterData[] monsterList;
-
-    [SerializeField] CinemachineVirtualCamera camera;
 
     private MonsterData monsterData;
 
@@ -40,13 +43,13 @@ public class Manager : MonoBehaviour
 
             return;
         }
-        Debug.Log(kirbyHp);
+
         instanse = this;
     }
 
     private Manager()
     {
-        kirbyHp = 100;
+        kirbyHp = KIRBYMAXHP;
     }
 
     public void ChangeKirbyAblility()
@@ -78,6 +81,9 @@ public class Manager : MonoBehaviour
         GameObject newKirby = Instantiate(monsterData.GetableAbility.Kirby, position, Quaternion.identity);
         newKirby.transform.parent = transform;
 
+        abilityImage.GetComponent<KirbyAbilityNameShow>().SetImage();
+        abilityIcon.GetComponent<KirbyAbilityIconShow>().SetImage();
+
         Destroy(monster);
     }
 
@@ -86,9 +92,8 @@ public class Manager : MonoBehaviour
         Destroy(monster);
     }
 
-    public void GetDamage(int damage)
+    public void GetDamage(float damage)
     {
         kirbyHp -= damage;
-        Debug.Log($"hp: {kirbyHp}");
     }
 }

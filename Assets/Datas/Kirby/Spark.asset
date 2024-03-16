@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kirbyAbility: Spark
   kirby: {fileID: 7260442880845559903, guid: d81ff62d6ec75f446881464bb1dd085a, type: 3}
+  abilityNameImage: {fileID: 1111930612, guid: 1a47d77abbb2c4f4194b708adfe1289a, type: 3}
+  abilityIconImage: {fileID: 1250815674, guid: 1a47d77abbb2c4f4194b708adfe1289a, type: 3}

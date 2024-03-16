@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kirbyAbility: Common
   kirby: {fileID: 1162985953534475239, guid: c7640538f572e7246a4e96b7f1c9b801, type: 3}
+  abilityNameImage: {fileID: 1878525960, guid: 1a47d77abbb2c4f4194b708adfe1289a, type: 3}
+  abilityIconImage: {fileID: -2025693870, guid: 1a47d77abbb2c4f4194b708adfe1289a, type: 3}

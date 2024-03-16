@@ -11,7 +11,9 @@ public class Kirby : MonoBehaviour
 {
     [Header("Componemt")]
     [SerializeField] Rigidbody2D rigid;
+    public Rigidbody2D Rigid { get { return rigid; } }
     [SerializeField] SpriteRenderer render;
+    public SpriteRenderer Render { get { return render; } }
     [SerializeField] Animator animator;
     public Animator Animator {  get { return animator; } }
     [SerializeField] InputActionAsset inputAction;
@@ -65,11 +67,6 @@ public class Kirby : MonoBehaviour
 
         animator.SetBool("IsGround", isGround);
         animator.SetBool("Running", isRunning);
-
-        /*if (Manager.GetInstanse().KirbyHp == 0)
-        {
-
-        }*/
     }
 
     // 기본 움직임
@@ -203,6 +200,18 @@ public class Kirby : MonoBehaviour
         {
             Manager.GetInstanse().GetDamage(20);
             animator.Play("GetDamage");
+
+            Vector2 velocity = Rigid.velocity;
+
+            if (transform.position.x < collision.transform.position.x)
+            {
+                velocity.x = -15;
+            }
+            else if (transform.position.x > collision.transform.position.x)
+            {
+                velocity.x = 15;
+            }
+            Rigid.velocity = velocity;
         }
     }
 

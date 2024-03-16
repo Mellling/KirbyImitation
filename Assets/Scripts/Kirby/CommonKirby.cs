@@ -54,7 +54,20 @@ public class CommonKirby : Kirby
             else
             {
                 Manager.GetInstanse().GetDamage(20);
+
                 Animator.Play("GetDamage");
+
+                Vector2 velocity = Rigid.velocity;
+
+                if (transform.position.x < collision.transform.position.x)
+                {
+                    velocity.x = -15;
+                }
+                else if (transform.position.x > collision.transform.position.x)
+                {
+                    velocity.x = 15;
+                }
+                Rigid.velocity = velocity;
             }
         }
 

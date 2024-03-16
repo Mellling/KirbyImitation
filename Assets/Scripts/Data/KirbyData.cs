@@ -1,3 +1,4 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,4 +13,10 @@ public class KirbyData : ScriptableObject
     [SerializeField]
     GameObject kirby;
     public GameObject Kirby { get { return kirby; } }
+
+    [SerializeField] Sprite abilityNameImage;
+    public Sprite AbilityNameImage { get { return abilityNameImage; } }
+
+    [SerializeField] Sprite abilityIconImage = null;
+    public Sprite AbilityIconImage { get { return abilityIconImage; } }
 }
