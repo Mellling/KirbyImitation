@@ -173,6 +173,9 @@ MonoBehaviour:
   MonsterCheakLayer:
     serializedVersion: 2
     m_Bits: 256
+  StageDoorCheakLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!50 &8095587762653207120
 Rigidbody2D:
   serializedVersion: 4

@@ -18,6 +18,8 @@ public class Monster : MonoBehaviour
     [SerializeField]
     private int hp;
 
+    private bool die;
+
     [SerializeField] LayerMask canFowardCheakLayer;
     [SerializeField] LayerMask playerCheakLayer;
 
@@ -63,16 +65,16 @@ public class Monster : MonoBehaviour
 
     protected void OnCollisionEnter2D(Collision2D collision)
     {
+
         if (canFowardCheakLayer.Contain(collision.gameObject.layer))
         {
             render.flipX = !render.flipX;
         }
 
         if (playerCheakLayer.Contain(collision.gameObject.layer)
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+            && !die)
         {
             hp -= Manager.GetInstanse().KirbyDamage;
-            Debug.Log($"Monster Hp : {hp}");
         }
     }
 
@@ -81,6 +83,7 @@ public class Monster : MonoBehaviour
         if (playerCheakLayer.Contain(collision.gameObject.layer))
         {
             animator.Play("Die");
+            die = true;
         }
     }
 }

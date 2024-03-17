@@ -9,6 +9,8 @@ public class Manager : MonoBehaviour
 {
     private static Manager instanse;
 
+    public static Manager GetInstanse() { return instanse; }
+
     [Header("Kirby")]
     [SerializeField] KirbyData kirbyData;
     public KirbyData KirbyData {  get { return kirbyData; } }
@@ -25,6 +27,8 @@ public class Manager : MonoBehaviour
     [SerializeField] GameObject abilityImage;
     [SerializeField] GameObject abilityIcon;
 
+    ///////////////////////////////////////////////////////////////////////////////////////
+
     [Header("Monster")]
     [SerializeField] MonsterData[] monsterList;
 
@@ -33,7 +37,16 @@ public class Manager : MonoBehaviour
     private GameObject monster;
     public GameObject SetMonsterData(GameObject monster) { return this.monster = monster; }
 
-    public static Manager GetInstanse() { return instanse; }
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    [SerializeField] GameObject KirbyAbilityUI;
+
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    StageChange stageChange;
+    public StageChange StageChanging { get { return stageChange; } }
+
+    //////////////////////////////////////////////////////////////////////////////////////
 
     private void Awake()
     {
@@ -45,6 +58,10 @@ public class Manager : MonoBehaviour
         }
 
         instanse = this;
+
+        gameObject.transform.position = GameObject.Find("StartPoint").transform.position;
+
+        DontDestroyOnLoad(instanse);
     }
 
     private Manager()
@@ -95,5 +112,10 @@ public class Manager : MonoBehaviour
     public void GetDamage(float damage)
     {
         kirbyHp -= damage;
+    }
+
+    public void SetStageChange(StageChange change)
+    {
+        stageChange = change;
     }
 }

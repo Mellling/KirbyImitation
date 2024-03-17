@@ -215,6 +215,9 @@ MonoBehaviour:
   MonsterCheakLayer:
     serializedVersion: 2
     m_Bits: 256
+  StageDoorCheakLayer:
+    serializedVersion: 2
+    m_Bits: 512
   targetRange: {fileID: 8945489529562462044}
 --- !u!50 &905855894850350520
 Rigidbody2D:

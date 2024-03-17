@@ -173,6 +173,9 @@ MonoBehaviour:
   MonsterCheakLayer:
     serializedVersion: 2
     m_Bits: 256
+  StageDoorCheakLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!70 &5349802488755733245
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

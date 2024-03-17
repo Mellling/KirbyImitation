@@ -38,6 +38,7 @@ public class Kirby : MonoBehaviour
     public LayerMask GetGroundCheak { get { return groundCheakLayer;  } }
     [SerializeField] LayerMask MonsterCheakLayer;
     public LayerMask GetMonsterCheak { get { return MonsterCheakLayer;  } }
+    [SerializeField] LayerMask StageDoorCheakLayer;
 
     private Vector2 moveDir;
     private bool isGround;
@@ -50,7 +51,9 @@ public class Kirby : MonoBehaviour
     public bool IsSliding { get { return isSliding; } }
 
     private bool getMonster;
-    public bool GetMonster { get { return getMonster; } } 
+    public bool GetMonster { get { return getMonster; } }
+
+    private bool stageChageable;
 
     private static string kirbyName;
 
@@ -325,6 +328,29 @@ public class Kirby : MonoBehaviour
             isFlying = false;
             rigid.gravityScale = 1.0f;
             animator.SetBool("Fly", isFlying);
+        }
+    }
+
+    // 스테이지 이동
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (StageDoorCheakLayer.Contain(collision.gameObject.layer))
+        {
+            stageChageable = true;
+        }
+    }
+
+    private void OnGoNextStage(InputValue value)
+    {
+        if (value.isPressed && stageChageable)
+        {
+            if (Manager.GetInstanse().StageChanging == null)
+            {
+                Debug.Log("StageChanging");
+            }
+            Manager.GetInstanse().StageChanging.Change();
+            stageChageable = false;
         }
     }
 }
