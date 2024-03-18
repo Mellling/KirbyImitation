@@ -124,6 +124,7 @@ MonoBehaviour:
   rigid: {fileID: 6525737497429340486}
   render: {fileID: 5024196013195240273}
   animator: {fileID: 3063958504958824502}
+  hp: 15
   canFowardCheakLayer:
     serializedVersion: 2
     m_Bits: 128

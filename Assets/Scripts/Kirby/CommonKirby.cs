@@ -10,6 +10,7 @@ public class CommonKirby : Kirby
     [SerializeField] Collider2D targetRange;
 
     private bool keeping;
+    private bool inhale;
 
     // »Ì¿‘
 
@@ -25,7 +26,8 @@ public class CommonKirby : Kirby
 
         if (value.isPressed)
         {
-            Animator.SetBool("Inhaling", true);
+            inhale = true;
+            Animator.SetBool("Inhaling", inhale);
             Inhalable();
             Animator.Play("Inhaling");
 
@@ -37,7 +39,8 @@ public class CommonKirby : Kirby
         }
         else if (!value.isPressed)
         {
-            Animator.SetBool("Inhaling", false);
+            inhale = false;
+            Animator.SetBool("Inhaling", inhale);
             DisInhalable();
         }
     }
@@ -46,7 +49,7 @@ public class CommonKirby : Kirby
     {
         if (GetMonsterCheak.Contain(collision.gameObject.layer))
         {
-            if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Inhale"))
+            if (inhale)
             {
                 Monster monster = collision.gameObject.GetComponent<Monster>();
                 MonsterIn(monster.gameObject);

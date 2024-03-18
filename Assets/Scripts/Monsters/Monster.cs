@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Monster : MonoBehaviour
@@ -20,8 +21,12 @@ public class Monster : MonoBehaviour
 
     private bool die;
 
+    private bool isInhaled;
+
     [SerializeField] LayerMask canFowardCheakLayer;
     [SerializeField] LayerMask playerCheakLayer;
+
+    [SerializeField] LayerMask InhaleLayer;
 
     Coroutine monsterDie;
 
@@ -41,6 +46,12 @@ public class Monster : MonoBehaviour
         {
             Move();
         }
+
+        if (isInhaled)
+        {
+            Inhaled();
+        }
+
 
         if (hp == 0)
         {
@@ -66,7 +77,7 @@ public class Monster : MonoBehaviour
     protected void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (canFowardCheakLayer.Contain(collision.gameObject.layer))
+        if (canFowardCheakLayer.Contain(collision.gameObject.layer) && !die)
         {
             render.flipX = !render.flipX;
         }
@@ -74,7 +85,7 @@ public class Monster : MonoBehaviour
         if (playerCheakLayer.Contain(collision.gameObject.layer)
             && !die)
         {
-            hp -= Manager.GetInstanse().KirbyDamage;
+            GetDamage();
         }
     }
 
@@ -82,8 +93,53 @@ public class Monster : MonoBehaviour
     {
         if (playerCheakLayer.Contain(collision.gameObject.layer))
         {
-            animator.Play("Die");
-            die = true;
+            string ability = Manager.GetInstanse().KirbyData.KirbyAbility;
+
+            if (ability == "Common")
+            {
+                gameObject.layer = 10;
+
+                animator.Play("Die");
+                die = true;
+                animator.SetBool("Die", die);
+
+                isInhaled = true;
+            }
+            else if (ability == "Spark")
+            {
+                GetDamage();
+
+                if (hp != 0)
+                {
+                    animator.Play("Damage");
+
+                    Vector2 velocity = Rigid.velocity;
+
+                    if (transform.position.x < collision.transform.position.x)
+                    {
+                        velocity.x = -10;
+                    }
+                    else if (transform.position.x > collision.transform.position.x)
+                    {
+                        velocity.x = 10;
+                    }
+                    Rigid.velocity = velocity;
+                }
+            }
         }
+    }
+
+    private void GetDamage()
+    {
+        hp -= Manager.GetInstanse().KirbyDamage;
+    }
+
+    private void Inhaled()
+    {
+        Vector2 speed = Vector2.zero;
+
+        Transform player = Manager.GetInstanse().transform.GetChild(0).gameObject.transform;
+
+        transform.position = Vector2.SmoothDamp(transform.position, player.position, ref speed, 0.04f, 100f);
     }
 }
