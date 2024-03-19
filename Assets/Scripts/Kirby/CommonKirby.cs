@@ -52,11 +52,24 @@ public class CommonKirby : Kirby
             if (inhale)
             {
                 Monster monster = collision.gameObject.GetComponent<Monster>();
+
+                if (monster == null) // 몬스터가 아닌 박스가 들어온 경우
+                {
+                    BlockIn(collision.gameObject);
+                    return;
+                }
                 MonsterIn(monster.gameObject);
             }
             else
             {
-                Manager.GetInstanse().GetDamage(20);
+                Monster monster = collision.gameObject.GetComponent<Monster>();
+
+                if (monster == null || monster.Die)
+                {
+                    return;
+                }
+
+                Manager.GetInstanse().GetDamage(monster.Damage);
 
                 Animator.Play("GetDamage");
 
@@ -64,11 +77,11 @@ public class CommonKirby : Kirby
 
                 if (transform.position.x < collision.transform.position.x)
                 {
-                    velocity.x = -15;
+                    velocity.x = -8;
                 }
                 else if (transform.position.x > collision.transform.position.x)
                 {
-                    velocity.x = 15;
+                    velocity.x = 8;
                 }
                 Rigid.velocity = velocity;
             }
@@ -77,10 +90,43 @@ public class CommonKirby : Kirby
         base.OnCollisionEnter2D(collision);
     }
 
+    protected override void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (GetMonsterCheak.Contain(collision.gameObject.layer) && !inhale)
+        {
+            Monster monster = collision.gameObject.transform.parent.gameObject.GetComponent<Monster>();
+
+            Manager.GetInstanse().GetDamage(monster.Damage);
+
+            Animator.Play("GetDamage");
+
+            Vector2 velocity = Rigid.velocity;
+
+            if (transform.position.x < collision.transform.position.x)
+            {
+                velocity.x = -8;
+            }
+            else if (transform.position.x > collision.transform.position.x)
+            {
+                velocity.x = 8;
+            }
+            Rigid.velocity = velocity;
+        }
+    }
+
     private void MonsterIn(GameObject monster)
     {
         Manager.GetInstanse().SetMonsterData(monster);
         monster.SetActive(false);
+
+        Animator.Play("Keep");
+        keeping = true;
+        Animator.SetBool("Keeping", keeping);
+    }
+
+    private void BlockIn(GameObject block)
+    {
+        Destroy(block);
 
         Animator.Play("Keep");
         keeping = true;
@@ -111,12 +157,14 @@ public class CommonKirby : Kirby
     private void Inhalable()
     {
         targetRange.enabled = true;
+        Manager.GetInstanse().CanInhaledSet(true);
         transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
     }
 
     private void DisInhalable()
     {
         targetRange.enabled = false;
+        Manager.GetInstanse().CanInhaledSet(false);
         transform.GetChild(0).GetComponent<Collider2D>().enabled = false;
     }
 

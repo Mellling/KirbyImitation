@@ -11,7 +11,7 @@ public class HpBar : MonoBehaviour
     [SerializeField] Slider HpBarSlider;
     public void CheckHp()
     {
-        if (maxHp == 0 || curHp <= 0)
+        if (maxHp == 0 || curHp < 0)
         {
             return;
         }

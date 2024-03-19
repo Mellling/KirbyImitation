@@ -170,7 +170,7 @@ MonoBehaviour:
   flyYMaxSpeed: 2
   groundCheakLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 2112
   MonsterCheakLayer:
     serializedVersion: 2
     m_Bits: 256

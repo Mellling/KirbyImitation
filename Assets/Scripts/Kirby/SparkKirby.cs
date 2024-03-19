@@ -5,6 +5,24 @@ using UnityEngine.InputSystem;
 
 public class SparkKirby : Kirby
 {
+    private bool attack;
+
+    Coroutine attackOn;
+
+    IEnumerator AttackOn()
+    {
+        yield return new WaitForSeconds(0.15f);
+
+        transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
+
+        StopCoroutine(attackOn);
+
+        if (!attack)
+        {
+            transform.GetChild(0).GetComponent<Collider2D>().enabled = false;
+        }
+    }
+
     // АјАн
 
     private void OnSparkAttack(InputValue value)
@@ -12,15 +30,17 @@ public class SparkKirby : Kirby
         if (value.isPressed && IsGround)
         {
             Animator.Play("Attack");
-            Animator.SetBool("Attack", true);
+            attack = true;
+            Animator.SetBool("Attack", attack);
 
-            transform.GetChild(0).GetComponent<Collider2D>().enabled = true;
+            attackOn = StartCoroutine(AttackOn());
         }
 
         if (!value.isPressed) 
         {
-            Animator.SetBool("Attack", false);
-
+            attack = false;
+            Animator.SetBool("Attack", attack);
+            Debug.Log("check");
             transform.GetChild(0).GetComponent<Collider2D>().enabled = false;
         }
     }

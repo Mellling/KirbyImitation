@@ -39,7 +39,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279773455568570422}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -237,7 +237,7 @@ MonoBehaviour:
   flyYMaxSpeed: 2
   groundCheakLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 2112
   MonsterCheakLayer:
     serializedVersion: 2
     m_Bits: 256

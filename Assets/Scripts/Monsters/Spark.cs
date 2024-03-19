@@ -10,13 +10,36 @@ public class Spark : Monster
     private bool isGround;
     private bool jumpHightest;
 
+    Coroutine attack;
+
+    IEnumerator Attack()
+    {
+        transform.GetChild(0).gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(0.48f);
+
+        transform.GetChild(0).gameObject.SetActive(false);
+        StopCoroutine(attack);
+    }
+
     public override void Move()
     {
+        int random = (int)Random.Range(0f, 2f);
+
         if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Idle")
             && Animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
-            Moving();
-            Animator.Play("Jump", 0);
+            if (random == 0)
+            {
+                Moving();
+                Animator.Play("Jump", 0);
+            }
+            else
+            {
+                Animator.Play("Attack");
+                attack = StartCoroutine(Attack());
+            }
+
         }
 
         if (!isGround)

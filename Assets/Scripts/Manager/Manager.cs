@@ -13,6 +13,8 @@ public class Manager : MonoBehaviour
 
     [Header("Kirby")]
     [SerializeField] KirbyData kirbyData;
+
+    KirbyData common;
     public KirbyData KirbyData {  get { return kirbyData; } }
 
     private static float KIRBYMAXHP = 100.0f;
@@ -26,6 +28,9 @@ public class Manager : MonoBehaviour
 
     [SerializeField] GameObject abilityImage;
     [SerializeField] GameObject abilityIcon;
+
+    private bool canInhaled = false;
+    public bool CanInhaled { get {  return canInhaled; } }
 
     ///////////////////////////////////////////////////////////////////////////////////////
 
@@ -67,6 +72,8 @@ public class Manager : MonoBehaviour
     private Manager()
     {
         kirbyHp = KIRBYMAXHP;
+
+        common = kirbyData;
     }
 
     public void ChangeKirbyAblility()
@@ -114,8 +121,23 @@ public class Manager : MonoBehaviour
         kirbyHp -= damage;
     }
 
+    public void ReCover(float hp)
+    {
+        if (kirbyHp == KIRBYMAXHP)
+        {
+            return;
+        }
+
+        kirbyHp += hp;
+    }
+
     public void SetStageChange(StageChange change)
     {
         stageChange = change;
+    }
+
+    public void CanInhaledSet(bool canInhaled)
+    {
+        this.canInhaled = canInhaled;
     }
 }

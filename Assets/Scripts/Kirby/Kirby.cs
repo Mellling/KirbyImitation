@@ -201,18 +201,26 @@ public class Kirby : MonoBehaviour
         if (GetMonsterCheak.Contain(collision.gameObject.layer) 
             && Manager.GetInstanse().KirbyData.KirbyAbility != "Common")
         {
-            Manager.GetInstanse().GetDamage(20);
+            Monster monster = collision.gameObject.GetComponent<Monster>();
+
+            if (monster == null || monster.Die)
+            {
+                return;
+            }
+
+            Manager.GetInstanse().GetDamage(monster.Damage);
+
             animator.Play("GetDamage");
 
             Vector2 velocity = Rigid.velocity;
 
             if (transform.position.x < collision.transform.position.x)
             {
-                velocity.x = -15;
+                velocity.x = -8;
             }
             else if (transform.position.x > collision.transform.position.x)
             {
-                velocity.x = 15;
+                velocity.x = 8;
             }
             Rigid.velocity = velocity;
         }
@@ -341,14 +349,42 @@ public class Kirby : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (StageDoorCheakLayer.Contain(collision.gameObject.layer))
+        {
+            stageChageable = false;
+        }
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (GetMonsterCheak.Contain(collision.gameObject.layer))
+        {
+            Monster monster = collision.gameObject.transform.parent.gameObject.GetComponent<Monster>();
+
+            Manager.GetInstanse().GetDamage(monster.Damage);
+
+            Animator.Play("GetDamage");
+
+            Vector2 velocity = Rigid.velocity;
+
+            if (transform.position.x < collision.transform.position.x)
+            {
+                velocity.x = -8;
+            }
+            else if (transform.position.x > collision.transform.position.x)
+            {
+                velocity.x = 8;
+            }
+            Rigid.velocity = velocity;
+        }
+    }
+
     private void OnGoNextStage(InputValue value)
     {
         if (value.isPressed && stageChageable)
         {
-            if (Manager.GetInstanse().StageChanging == null)
-            {
-                Debug.Log("StageChanging");
-            }
             Manager.GetInstanse().StageChanging.Change();
             stageChageable = false;
         }

@@ -16,17 +16,18 @@ public class Monster : MonoBehaviour
 
     public string Name() { return name; }
 
-    [SerializeField]
-    private int hp;
+    [SerializeField] int hp;
 
     private bool die;
+    public bool Die { get {  return die; } }
 
     private bool isInhaled;
 
+    [SerializeField] float damage;
+    public float Damage { get { return damage; } }
+
     [SerializeField] LayerMask canFowardCheakLayer;
     [SerializeField] LayerMask playerCheakLayer;
-
-    [SerializeField] LayerMask InhaleLayer;
 
     Coroutine monsterDie;
 
@@ -40,7 +41,7 @@ public class Monster : MonoBehaviour
         StopCoroutine(monsterDie);
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Die"))
         {
@@ -53,7 +54,7 @@ public class Monster : MonoBehaviour
         }
 
 
-        if (hp == 0)
+        if (hp <= 0)
         {
             monsterDie = StartCoroutine(MonsterDie());
         }
@@ -86,6 +87,23 @@ public class Monster : MonoBehaviour
             && !die)
         {
             GetDamage();
+
+            if (hp != 0)
+            {
+                animator.Play("Damage");
+
+                Vector2 velocity = Rigid.velocity;
+
+                if (transform.position.x < collision.transform.position.x)
+                {
+                    velocity.x = -3;
+                }
+                else if (transform.position.x > collision.transform.position.x)
+                {
+                    velocity.x = 3;
+                }
+                Rigid.velocity = velocity;
+            }
         }
     }
 
@@ -97,7 +115,15 @@ public class Monster : MonoBehaviour
 
             if (ability == "Common")
             {
+                if (!Manager.GetInstanse().CanInhaled)
+                {
+                    return;
+                }
+
+                Manager.GetInstanse().CanInhaledSet(false);
+
                 gameObject.layer = 10;
+                gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
 
                 animator.Play("Die");
                 die = true;
@@ -117,11 +143,11 @@ public class Monster : MonoBehaviour
 
                     if (transform.position.x < collision.transform.position.x)
                     {
-                        velocity.x = -10;
+                        velocity.x = -3;
                     }
                     else if (transform.position.x > collision.transform.position.x)
                     {
-                        velocity.x = 10;
+                        velocity.x = 3;
                     }
                     Rigid.velocity = velocity;
                 }
@@ -140,6 +166,6 @@ public class Monster : MonoBehaviour
 
         Transform player = Manager.GetInstanse().transform.GetChild(0).gameObject.transform;
 
-        transform.position = Vector2.SmoothDamp(transform.position, player.position, ref speed, 0.04f, 100f);
+        transform.position = Vector2.SmoothDamp(transform.position, player.position, ref speed, 0.07f);
     }
 }

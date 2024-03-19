@@ -15,7 +15,6 @@ public class StageChange : MonoBehaviour
 
     public void Change()
     {
-        Debug.Log(nextStageName);
         SceneManager.LoadScene(nextStageName);
     }
 }
